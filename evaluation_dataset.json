@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "title": "Custody Sentence",
+            "paragraphs": [
+                {
+                    "context": "2 years imprisonment, $50 fine and extra time probation.",
+                    "qas": [
+                        {
+                            "question": "How long is the custody in months?",
+                            "answers": [
+                                {
+                                    "text": "24 months",
+                                    "answer_start": 0
+                                }
+                            ],
+                            "id": "1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
