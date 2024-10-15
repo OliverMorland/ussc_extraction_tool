@@ -20,4 +20,5 @@ class LLMQAUtil:
         answer_end = torch.argmax(outputs.end_logits) + 1
         answer = self.tokenizer.convert_tokens_to_string(
             self.tokenizer.convert_ids_to_tokens(inputs['input_ids'][0][answer_start:answer_end]))
+        answer.replace(",", "")  # Commas will ruin the csv file
         return answer

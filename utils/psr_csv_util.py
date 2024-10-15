@@ -1,23 +1,6 @@
 import csv
 
-data = [
-    {
-        'Arrest Date': '2023-01-01',
-        'J/A': 'J',
-        'Sentence Date': '2023-02-01',
-        'Custody Length Imposed': '24 months',
-        'Custody Length From': '2023-02-01',
-        'Custody Length To': '2025-02-01',
-        'Probation Length': '12 months',
-        'Guideline': 'Guideline 1',
-        'Points': 5,
-        'State': 'CA',
-        'Federal': 'Yes',
-        'Tribal': 'No',
-        'Offenses': 'Offense 1'
-    },
-    # Add more rows as needed
-]
+data = []
 
 # Define the CSV file name
 csv_file = 'output.csv'
@@ -30,12 +13,30 @@ columns = [
 ]
 
 
+class ChargeRecord:
+    arrest_date = ""
+    ja = ""
+    age = ""
+    sentence_date = ""
+    custody_length_imposed = ""
+    custody_length_from = ""
+    custody_length_to = ""
+    probation_length = ""
+    guideline = ""
+    points = ""
+    state = ""
+    federal = ""
+    tribal = ""
+    offenses = ""
+
+
 # Function to add a row to the data
-def add_row(arrest_date, ja, sentence_date, custody_length_imposed, custody_length_from, custody_length_to,
+def add_row(arrest_date, ja, age, sentence_date, custody_length_imposed, custody_length_from, custody_length_to,
             probation_length, guideline, points, state, federal, tribal, offenses):
     new_row = {
         'Arrest Date': arrest_date,
         'J/A': ja,
+        'Age': age,
         'Sentence Date': sentence_date,
         'Custody Length Imposed': custody_length_imposed,
         'Custody Length From': custody_length_from,
@@ -60,7 +61,6 @@ def write_to_csv():
         for row in data:
             writer.writerow(row)
     print(f"CSV file '{csv_file}' updated successfully.")
-
 
 # add_row('2023-03-01', 'A', '2023-04-01', '36 months', '2023-04-01', '2026-04-01', '24 months', 'Guideline 2', 10, 'NY',
 #         'No', 'Yes', 'Offense 2')
