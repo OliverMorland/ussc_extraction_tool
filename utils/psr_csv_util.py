@@ -7,7 +7,7 @@ csv_file = 'output.csv'
 
 # Define the column names
 columns = [
-    'Arrest Date', 'J/A', 'Sentence Date', 'Custody Length Imposed', 'Custody Length From',
+    'Arrest Date', 'J/A', 'Age', 'Sentence Date', 'Custody Length Imposed', 'Custody Length From',
     'Custody Length To', 'Probation Length', 'Guideline', 'Points', 'State', 'Federal',
     'Tribal', 'Offenses'
 ]
@@ -27,27 +27,26 @@ class ChargeRecord:
     state = ""
     federal = ""
     tribal = ""
-    offenses = ""
+    offense = ""
 
 
 # Function to add a row to the data
-def add_row(arrest_date, ja, age, sentence_date, custody_length_imposed, custody_length_from, custody_length_to,
-            probation_length, guideline, points, state, federal, tribal, offenses):
+def add_row(record: ChargeRecord):
     new_row = {
-        'Arrest Date': arrest_date,
-        'J/A': ja,
-        'Age': age,
-        'Sentence Date': sentence_date,
-        'Custody Length Imposed': custody_length_imposed,
-        'Custody Length From': custody_length_from,
-        'Custody Length To': custody_length_to,
-        'Probation Length': probation_length,
-        'Guideline': guideline,
-        'Points': points,
-        'State': state,
-        'Federal': federal,
-        'Tribal': tribal,
-        'Offenses': offenses
+        'Arrest Date': record.arrest_date,
+        'J/A': record.ja,
+        'Age': record.age,
+        'Sentence Date': record.sentence_date,
+        'Custody Length Imposed': record.custody_length_imposed,
+        'Custody Length From': record.custody_length_from,
+        'Custody Length To': record.custody_length_to,
+        'Probation Length': record.probation_length,
+        'Guideline': record.guideline,
+        'Points': record.points,
+        'State': record.state,
+        'Federal': record.federal,
+        'Tribal': record.tribal,
+        'Offenses': record.offense
     }
     data.append(new_row)
     write_to_csv()
