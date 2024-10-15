@@ -1,6 +1,12 @@
 import csv
 import fitz  # PyMuPDF
 import re
+from transformers import DistilBertTokenizer, DistilBertForQuestionAnswering
+import torch
+
+# Load the fine-tuned model
+model = DistilBertForQuestionAnswering.from_pretrained('distilbert-base-uncased-distilled-squad')
+tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased-distilled-squad')
 
 
 # Function to extract and split text from the PDF
@@ -130,3 +136,24 @@ pdf_path = 'USSC_PCR_Sample.pdf'
 charges = get_charges_from_sample_pdf(pdf_path)
 for i in range(len(charges)):
     print(f"Charge {i + 1}: {charges[i]}")
+
+
+context = charges[len(charges) - 1]
+question = "How old is the defendant?"
+# Tokenize the input
+inputs = tokenizer(question, context, return_tensors="pt", truncation=True, padding=True)
+
+# Get model output
+with torch.no_grad():
+    outputs = model(**inputs)
+
+# Extract the answer (start and end token positions)
+answer_start = torch.argmax(outputs.start_logits)
+answer_end = torch.argmax(outputs.end_logits) + 1
+answer = tokenizer.convert_tokens_to_string(tokenizer.convert_ids_to_tokens(inputs['input_ids'][0][answer_start:answer_end]))
+
+print(f"""Context: {context}
+          Question: {question}
+          Answer: {answer}""")
+
+
