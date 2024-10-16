@@ -4,8 +4,8 @@ import torch
 
 class LLMQAUtil:
     def __init__(self):
-        self.model = DistilBertForQuestionAnswering.from_pretrained('distilbert-base-uncased-distilled-squad')
-        self.tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased-distilled-squad')
+        self.model = DistilBertForQuestionAnswering.from_pretrained('distilbert-base-cased-distilled-squad')
+        self.tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-cased-distilled-squad')
 
     def query_the_charge(self, question, context):
         # Tokenize the input

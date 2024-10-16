@@ -1,84 +1,85 @@
-import json
-from datasets import Dataset
-from transformers import DistilBertTokenizer, DistilBertForQuestionAnswering, Trainer, TrainingArguments
+import torch
+from datasets import load_dataset
+from transformers import DistilBertTokenizerFast, DistilBertForQuestionAnswering, Trainer, TrainingArguments
+
+# Load the dataset
+dataset_path = 'dataset_50.json'  # Path to the dataset
+data = load_dataset('json', data_files=dataset_path)
+
+# Load pre-trained tokenizer and model
+tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-uncased')
+model = DistilBertForQuestionAnswering.from_pretrained('distilbert-base-uncased')
 
 
-# Load and preprocess the dataset
-def load_dataset(file_path):
-    with open(file_path, 'r') as f:
-        data = json.load(f)
-    return Dataset.from_list(data)
-
-
-# Tokenize the inputs for DistilBERT with padding and truncation
-def tokenize_function(example):
-    return tokenizer(
-        example['context'],
-        example['question'],
-        truncation=True,
-        padding='max_length',  # Ensure all sequences have the same length
-        max_length=512  # Adjust max length as needed
+# Preprocess the data
+def preprocess_function(examples):
+    # Tokenize the inputs (question + context)
+    inputs = tokenizer(
+        examples['question'],
+        examples['context'],
+        truncation=True,  # Ensure truncation
+        padding="max_length",  # Ensure padding to max_length
+        max_length=512,  # Set a maximum length for padding/truncation
     )
 
+    # Extract the start and end positions from each answer in the batch
+    start_positions = []
+    end_positions = []
 
-# Add start and end positions of the answer within the context
-def add_token_positions(example):
-    start_pos = example['context'].find(example['answer'])
-    end_pos = start_pos + len(example['answer'])
+    for i in range(len(examples['answers'])):
+        start = examples['answers'][i]['answer_start']  # Get the start position (already flat)
+        end = start + len(examples['answers'][i]['text']) - 1  # Calculate the end position
+        start_positions.append(start)
+        end_positions.append(end)
 
-    if start_pos == -1:
-        # Handle cases where the answer is not found in the context
-        start_pos, end_pos = 0, 0
+    # Add start and end positions to the inputs
+    inputs['start_positions'] = start_positions
+    inputs['end_positions'] = end_positions
 
-    return {
-        'start_positions': start_pos,
-        'end_positions': end_pos
-    }
+    return inputs
 
 
-# Load the dataset (Replace 'dataset.json' with the actual path to your dataset)
-dataset_file = 'expanded_dataset.json'
-dataset = load_dataset(dataset_file)
+# Apply the preprocessing function to the dataset
+tokenized_data = data.map(preprocess_function, batched=True)
 
-# Initialize the tokenizer
-tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased-distilled-squad')
+# Split the data into train and eval sets
+train_test_split = tokenized_data['train'].train_test_split(test_size=0.2)
+train_dataset = train_test_split['train']
+eval_dataset = train_test_split['test']
 
-# Tokenize the dataset with padding and truncation
-tokenized_dataset = dataset.map(tokenize_function, batched=True)
-
-# Add token positions (start and end of the answer in the context)
-tokenized_dataset = tokenized_dataset.map(add_token_positions)
-
-# Load the pre-trained model for question-answering
-model = DistilBertForQuestionAnswering.from_pretrained('distilbert-base-uncased-distilled-squad')
-
-# Training arguments
+# Define training arguments
 training_args = TrainingArguments(
-    output_dir='./results',  # Output directory for saving model checkpoints
-    evaluation_strategy="epoch",  # Evaluate at each epoch
-    learning_rate=2e-5,  # Learning rate
-    per_device_train_batch_size=8,  # Batch size for training
-    per_device_eval_batch_size=8,  # Batch size for evaluation
-    num_train_epochs=3,  # Number of epochs
-    weight_decay=0.01,  # Weight decay
-    logging_dir='./logs',  # Directory for logs
-    logging_steps=10,  # Log every 10 steps
-    save_steps=500,  # Save checkpoint every 500 steps
-    save_total_limit=2,  # Only keep the latest 2 checkpoints
+    output_dir='./results',
+    evaluation_strategy="epoch",  # Evaluate at the end of each epoch
+    learning_rate=2e-5,
+    per_device_train_batch_size=16,
+    per_device_eval_batch_size=16,
+    num_train_epochs=3,
+    weight_decay=0.01,
+    logging_dir='./logs',
+    logging_steps=10,
+    save_steps=1000,
+    save_total_limit=2,
+    remove_unused_columns=False,  # Prevent automatic column removal
 )
 
-# Initialize the trainer
+# Initialize Trainer
 trainer = Trainer(
     model=model,
     args=training_args,
-    train_dataset=tokenized_dataset,
-    eval_dataset=tokenized_dataset,  # In practice, use a separate validation set
-    tokenizer=tokenizer
+    train_dataset=train_dataset,
+    eval_dataset=eval_dataset,
+    tokenizer=tokenizer,
 )
 
 # Train the model
 trainer.train()
 
-# Save the final model
-model.save_pretrained('./psr_trained_model')
-tokenizer.save_pretrained('./psr_trained_model')
+# Evaluate the model
+trainer.evaluate()
+
+# Save the trained model
+model.save_pretrained('./fine_tuned_distilbert_state_identifier')
+tokenizer.save_pretrained('./fine_tuned_distilbert_state_identifier')
+
+print("Training and evaluation complete. Model saved!")

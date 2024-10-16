@@ -14,13 +14,13 @@ for charge in charges:
     record = ChargeRecord()
     record.arrest_date = qa_util.query_the_charge("What is the date?", charge)
     record.age = qa_util.query_the_charge("How old is the person?", charge)
-    if int(record.age) < 18:
-        record.ja = "J"
-    else:
-        record.ja = "A"
+    # if int(record.age) < 18:
+    #     record.ja = "J"
+    # else:
+    #     record.ja = "A"
     record.custody_length_imposed = qa_util.query_the_charge("How much time was sentenced in custody?", charge)
     record.probation_length = qa_util.query_the_charge("How much time was sentenced in probation?", charge)
-    record.state = qa_util.query_the_charge("What state in the USA is the court location?", charge)
+    record.state = qa_util.query_the_charge("What American State is it?", charge)
     record.offense = qa_util.query_the_charge("What offense is the person charged with?", charge)
     add_row(record)
 
