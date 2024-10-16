@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Trained model on 500 samples">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Fixed J or A decision" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729097099443</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed J or A decision">
+      <option name="closed" value="true" />
+      <created>1729097756966</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729097756966</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -198,7 +204,8 @@
     <MESSAGE value="Training script worked!?" />
     <MESSAGE value="Tester appears to be working" />
     <MESSAGE value="Trained model on 500 samples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trained model on 500 samples" />
+    <MESSAGE value="Fixed J or A decision" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed J or A decision" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

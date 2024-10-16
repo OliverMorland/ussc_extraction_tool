@@ -12,6 +12,19 @@ def extract_age(age_string):
         raise ValueError("No age found in the string")
 
 
+def find_first_date(text):
+    # Regular expression pattern to match dates in the format 'MM/DD/YYYY'
+    date_pattern = r'\b\d{2}/\d{2}/\d{4}\b'
+
+    # Search for the first occurrence of the date pattern
+    match = re.search(date_pattern, text)
+
+    if match:
+        return match.group(0)
+    else:
+        return None
+
+
 # Extract charges from Post Sentencing Report
 pdf_path = 'USSC_PCR_Sample.pdf'
 charges = get_charges_from_sample_pdf(pdf_path)
@@ -29,7 +42,8 @@ for charge in charges:
     record.age = str(age_number)
 
     # Arrest date
-    record.arrest_date = qa_util.query_the_charge("What is the date?", charge)
+    # record.arrest_date = qa_util.query_the_charge("What is the date?", charge)
+    record.arrest_date = find_first_date(charge)
 
     # J or A
     if int(age_number) < 18:
