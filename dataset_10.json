@@ -1,82 +1,82 @@
 [
   {
-    "context": "02/13/2022 Wyoming Capital Court House, WY, defendant guilty as charged.",
+    "context": "09/24/1975\n(Age 15)\nBreaking and Entering (2 counts); Rustle County Juvenile Court, Case No. 2055JD147; Columbus, AL. 11/04/1975: 6 months custody on each count to run consecutively, $50 fine. 03/30/1976: Paroled.",
     "question": "What state is it in?",
     "answers": {
-      "text": ["WY"],
-      "answer_start": [42]
+      "text": ["AL"],
+      "answer_start": [114]
     }
   },
   {
-    "context": "05/24/2021 Texas County District Court, TX, case dismissed.",
-    "question": "What state is it in?",
-    "answers": {
-      "text": ["TX"],
-      "answer_start": [37]
-    }
-  },
-  {
-    "context": "10/19/2020 New York City Court, NY, sentenced to 2 years.",
-    "question": "What state is it in?",
-    "answers": {
-      "text": ["NY"],
-      "answer_start": [32]
-    }
-  },
-  {
-    "context": "03/14/2019 Florida District Court, FL, verdict reached.",
-    "question": "What state is it in?",
-    "answers": {
-      "text": ["FL"],
-      "answer_start": [32]
-    }
-  },
-  {
-    "context": "09/17/2018 Los Angeles County Court, CA, guilty plea entered.",
-    "question": "What state is it in?",
-    "answers": {
-      "text": ["CA"],
-      "answer_start": [36]
-    }
-  },
-  {
-    "context": "11/11/2022 Chicago District Court, IL, appeal filed.",
-    "question": "What state is it in?",
-    "answers": {
-      "text": ["IL"],
-      "answer_start": [32]
-    }
-  },
-  {
-    "context": "04/23/2020 Massachusetts Supreme Judicial Court, MA, new trial ordered.",
+    "context": "12/20/2016\n(Age 57)\nShoplifting under $100 Brockton District Court; Brockton, MA 01/05/2017: Guilty plea, 1 year unsupervised probation, $35 to victim witness fund.",
     "question": "What state is it in?",
     "answers": {
       "text": ["MA"],
-      "answer_start": [46]
+      "answer_start": [96]
     }
   },
   {
-    "context": "07/15/2021 Nevada Circuit Court, NV, parole hearing scheduled.",
+    "context": "03/10/2010\n(Age 22)\nAssault with a deadly weapon Franklin County Court; Lexington, KY 05/12/2010: Guilty, 2 years probation $100 fine.",
     "question": "What state is it in?",
     "answers": {
-      "text": ["NV"],
-      "answer_start": [31]
+      "text": ["KY"],
+      "answer_start": [96]
     }
   },
   {
-    "context": "06/07/2019 Georgia Court of Appeals, GA, case reversed.",
+    "context": "05/06/1998\n(Age 19)\nBurglary (1st degree); Jefferson County Court; Birmingham, AL 07/15/1998: Guilty plea, 5 years probation.",
     "question": "What state is it in?",
     "answers": {
-      "text": ["GA"],
-      "answer_start": [33]
+      "text": ["AL"],
+      "answer_start": [87]
     }
   },
   {
-    "context": "08/02/2017 Arizona Superior Court, AZ, probation violation reported.",
+    "context": "08/14/2012\n(Age 30)\nGrand Theft Auto Los Angeles County Court; Los Angeles, CA 09/30/2012: Sentenced to 18 months in county jail.",
     "question": "What state is it in?",
     "answers": {
-      "text": ["AZ"],
-      "answer_start": [33]
+      "text": ["CA"],
+      "answer_start": [97]
+    }
+  },
+  {
+    "context": "07/23/2005\n(Age 25)\nVandalism and Trespassing King County Court; Seattle, WA 08/20/2005: Found guilty, fined $500.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["WA"],
+      "answer_start": [88]
+    }
+  },
+  {
+    "context": "01/12/2001\n(Age 35)\nDrug Possession Harris County Court; Houston, TX 02/25/2001: Sentenced to 3 years in state prison, $200 fine.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["TX"],
+      "answer_start": [88]
+    }
+  },
+  {
+    "context": "03/08/2017\n(Age 40)\nDUI conviction Cook County Court; Chicago, IL 04/10/2017: 1 year probation, $75 fine.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["IL"],
+      "answer_start": [77]
+    }
+  },
+  {
+    "context": "09/14/2019\n(Age 45)\nRobbery (armed); Miami-Dade County Court; Miami, FL 11/01/2019: Sentenced to 8 years in state prison.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["FL"],
+      "answer_start": [85]
+    }
+  },
+  {
+    "context": "10/23/1992\n(Age 27)\nAggravated Assault Shelby County Court; Memphis, TN 12/15/1992: Sentenced to 5 years probation, $250 fine.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["TN"],
+      "answer_start": [82]
     }
   }
 ]

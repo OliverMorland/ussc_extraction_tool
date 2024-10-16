@@ -2,11 +2,11 @@ from transformers import DistilBertForQuestionAnswering, DistilBertTokenizerFast
 import torch
 
 # Load the fine-tuned model and tokenizer from the saved directory
-model_path = './fine_tuned_distilbert'
-# model = DistilBertForQuestionAnswering.from_pretrained(model_path)
-# tokenizer = DistilBertTokenizerFast.from_pretrained(model_path)
-model = DistilBertForQuestionAnswering.from_pretrained('distilbert-base-cased-distilled-squad')
-tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-cased-distilled-squad')
+model_path = './state_trained_distilbert'
+model = DistilBertForQuestionAnswering.from_pretrained(model_path)
+tokenizer = DistilBertTokenizerFast.from_pretrained(model_path)
+# model = DistilBertForQuestionAnswering.from_pretrained('distilbert-base-cased-distilled-squad')
+# tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-cased-distilled-squad')
 
 
 # Function to test the model with a new context and question
@@ -37,7 +37,10 @@ def answer_question(context, question):
 test_samples = [
     "09/24/1975\n(Age 15)\nBreaking and Entering (2 counts); Rustle County Juvenile Court, Case No. 2055JD147; Columbus, AL. 11/04/1975: 6 months custody on each count to run consecutively, $50 fine. 03/30/1976: Paroled.",
     "12/20/2016\n(Age 57)\nShoplifting under $100 Brockton District Court; Brockton, MA 01/05/2017: Guilty plea, 1 year unsupervised probation, $35 to victim witness fund.",
-    "03/10/2010\n(Age 22)\nAssault with a deadly weapon Franklin County Court; Lexington, KY 05/12/2010: Guilty, 2 years probation $100 fine."
+    "03/10/2010\n(Age 22)\nAssault with a deadly weapon Franklin County Court; Lexington, KY 05/12/2010: Guilty, 2 years probation $100 fine.",
+    "weapon Franklin County Court; Lexington, KY ",
+    "10/30/1997\n(Age 27)\nOliver Morland will be 27 years old. He'll be going to Chicago, IL for his birthday party."
+
 ]
 
 # Test the model with a new context and question

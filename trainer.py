@@ -6,7 +6,7 @@ model = DistilBertForQuestionAnswering.from_pretrained("distilbert-base-cased-di
 tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-cased-distilled-squad")
 
 # Load your custom dataset
-dataset = load_dataset('json', data_files={'train': 'dataset_10.json'})
+dataset = load_dataset('json', data_files={'train': 'dataset_500.json'})
 
 
 # Tokenize the inputs
@@ -80,5 +80,5 @@ trainer = Trainer(
 trainer.train()
 
 # Save the fine-tuned model
-trainer.save_model('./fine_tuned_distilbert')
-tokenizer.save_pretrained('./fine_tuned_distilbert')
+trainer.save_model('./state_trained_distilbert')
+tokenizer.save_pretrained('./state_trained_distilbert')
