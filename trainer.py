@@ -1,85 +1,83 @@
-import torch
+from transformers import DistilBertForQuestionAnswering, DistilBertTokenizerFast, Trainer, TrainingArguments
 from datasets import load_dataset
-from transformers import DistilBertTokenizerFast, DistilBertForQuestionAnswering, Trainer, TrainingArguments
 
-# Load the dataset
-dataset_path = 'dataset_50.json'  # Path to the dataset
-data = load_dataset('json', data_files=dataset_path)
+# Load the pre-trained model and tokenizer
+model = DistilBertForQuestionAnswering.from_pretrained("distilbert-base-cased")
+tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-cased")
 
-# Load pre-trained tokenizer and model
-tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-uncased')
-model = DistilBertForQuestionAnswering.from_pretrained('distilbert-base-uncased')
+# Load your custom dataset
+dataset = load_dataset('json', data_files={'train': 'dataset_10.json'})
 
 
-# Preprocess the data
+# Tokenize the inputs
 def preprocess_function(examples):
-    # Tokenize the inputs (question + context)
+    # Tokenize the inputs
+    questions = [q.strip() for q in examples['question']]
     inputs = tokenizer(
-        examples['question'],
+        questions,
         examples['context'],
-        truncation=True,  # Ensure truncation
-        padding="max_length",  # Ensure padding to max_length
-        max_length=512,  # Set a maximum length for padding/truncation
+        max_length=384,
+        truncation="only_second",
+        return_offsets_mapping=True,
+        padding="max_length",
     )
 
-    # Extract the start and end positions from each answer in the batch
+    # Extracting the correct answer positions
     start_positions = []
     end_positions = []
 
-    for i in range(len(examples['answers'])):
-        start = examples['answers'][i]['answer_start']  # Get the start position (already flat)
-        end = start + len(examples['answers'][i]['text']) - 1  # Calculate the end position
-        start_positions.append(start)
-        end_positions.append(end)
+    for i, offset in enumerate(inputs['offset_mapping']):
+        # Access the answers correctly from the list
+        start_char = examples['answers'][i]['answer_start'][0]  # First answer start position
+        end_char = start_char + len(examples['answers'][i]['text'][0])  # End position based on answer text length
+        sequence_ids = inputs.sequence_ids(i)
 
-    # Add start and end positions to the inputs
+        token_start = None
+        token_end = None
+
+        # Iterate through sequence_ids and offsets to find token positions
+        for idx, (seq_id, offset_pair) in enumerate(zip(sequence_ids, offset)):
+            if seq_id == 1 and offset_pair[0] <= start_char and offset_pair[1] > start_char:
+                token_start = idx
+            if seq_id == 1 and offset_pair[0] < end_char and offset_pair[1] >= end_char:
+                token_end = idx
+
+        # Handle cases where token_start or token_end is None
+        if token_start is None:
+            token_start = 0  # You can choose a default like 0
+        if token_end is None:
+            token_end = 0  # You can choose a default like 0
+
+        start_positions.append(token_start)
+        end_positions.append(token_end)
+
     inputs['start_positions'] = start_positions
     inputs['end_positions'] = end_positions
-
     return inputs
 
 
-# Apply the preprocessing function to the dataset
-tokenized_data = data.map(preprocess_function, batched=True)
+# Apply preprocessing to your dataset
+tokenized_dataset = dataset.map(preprocess_function, batched=True, remove_columns=['context', 'question', 'answers'])
 
-# Split the data into train and eval sets
-train_test_split = tokenized_data['train'].train_test_split(test_size=0.2)
-train_dataset = train_test_split['train']
-eval_dataset = train_test_split['test']
-
-# Define training arguments
+# Define the training arguments
 training_args = TrainingArguments(
-    output_dir='./results',
-    evaluation_strategy="epoch",  # Evaluate at the end of each epoch
+    output_dir="./results",
+    eval_strategy="no",
     learning_rate=2e-5,
     per_device_train_batch_size=16,
-    per_device_eval_batch_size=16,
     num_train_epochs=3,
     weight_decay=0.01,
-    logging_dir='./logs',
-    logging_steps=10,
-    save_steps=1000,
-    save_total_limit=2,
-    remove_unused_columns=False,  # Prevent automatic column removal
 )
 
-# Initialize Trainer
+# Set up the Trainer
 trainer = Trainer(
     model=model,
     args=training_args,
-    train_dataset=train_dataset,
-    eval_dataset=eval_dataset,
-    tokenizer=tokenizer,
+    train_dataset=tokenized_dataset['train']
 )
 
-# Train the model
+# Fine-tune the model
 trainer.train()
 
-# Evaluate the model
-trainer.evaluate()
-
-# Save the trained model
-model.save_pretrained('./fine_tuned_distilbert_state_identifier')
-tokenizer.save_pretrained('./fine_tuned_distilbert_state_identifier')
-
-print("Training and evaluation complete. Model saved!")
+# Save the fine-tuned model
+trainer.save_model('./fine_tuned_distilbert')

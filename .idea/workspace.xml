@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Successfully outputting a file">
-      <change afterPath="$PROJECT_DIR$/dataset_5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset_50.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trained_model_tester.py" afterDir="false" />
+    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Trying in vain to get Trainer to work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_set_creator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/evaluation_dataset.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/llm_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset_5.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataset_10.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training_dataset.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/llm_qa_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/llm_qa_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,20 +48,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.data_set_creator.executor&quot;: &quot;Run&quot;,
-    &quot;Python.llm_test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.psr_csv_util.executor&quot;: &quot;Run&quot;,
-    &quot;Python.trained_model_tester.executor&quot;: &quot;Run&quot;,
-    &quot;Python.trainer.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/omorland/PythonProjects/ussc_extraction_tool&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.data_collator.executor": "Run",
+    "Python.data_set_creator.executor": "Run",
+    "Python.llm_test.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.psr_csv_util.executor": "Run",
+    "Python.trained_model_tester.executor": "Run",
+    "Python.trainer.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/omorland/PythonProjects/ussc_extraction_tool",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\omorland\PythonProjects\ussc_extraction_tool" />
@@ -142,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729020711641</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Trying in vain to get Trainer to work">
+      <option name="closed" value="true" />
+      <created>1729088652993</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729088652993</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,7 +164,8 @@
     <MESSAGE value="Cleaned up scripts" />
     <MESSAGE value="Generating csv" />
     <MESSAGE value="Successfully outputting a file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Successfully outputting a file" />
+    <MESSAGE value="Trying in vain to get Trainer to work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying in vain to get Trainer to work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -172,6 +174,21 @@
           <url>file://$PROJECT_DIR$/utils/psr_csv_util.py</url>
           <line>50</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trainer.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/trainer.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.venv/Lib/site-packages/transformers/data/data_collator.py</url>
+          <line>150</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

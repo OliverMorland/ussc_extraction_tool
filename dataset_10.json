@@ -1,0 +1,82 @@
+[
+  {
+    "context": "02/13/2022 Wyoming Capital Court House, WY, defendant guilty as charged.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["WY"],
+      "answer_start": [42]
+    }
+  },
+  {
+    "context": "05/24/2021 Texas County District Court, TX, case dismissed.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["TX"],
+      "answer_start": [37]
+    }
+  },
+  {
+    "context": "10/19/2020 New York City Court, NY, sentenced to 2 years.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["NY"],
+      "answer_start": [32]
+    }
+  },
+  {
+    "context": "03/14/2019 Florida District Court, FL, verdict reached.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["FL"],
+      "answer_start": [32]
+    }
+  },
+  {
+    "context": "09/17/2018 Los Angeles County Court, CA, guilty plea entered.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["CA"],
+      "answer_start": [36]
+    }
+  },
+  {
+    "context": "11/11/2022 Chicago District Court, IL, appeal filed.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["IL"],
+      "answer_start": [32]
+    }
+  },
+  {
+    "context": "04/23/2020 Massachusetts Supreme Judicial Court, MA, new trial ordered.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["MA"],
+      "answer_start": [46]
+    }
+  },
+  {
+    "context": "07/15/2021 Nevada Circuit Court, NV, parole hearing scheduled.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["NV"],
+      "answer_start": [31]
+    }
+  },
+  {
+    "context": "06/07/2019 Georgia Court of Appeals, GA, case reversed.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["GA"],
+      "answer_start": [33]
+    }
+  },
+  {
+    "context": "08/02/2017 Arizona Superior Court, AZ, probation violation reported.",
+    "question": "What state is it in?",
+    "answers": {
+      "text": ["AZ"],
+      "answer_start": [33]
+    }
+  }
+]
