@@ -25,6 +25,16 @@ def find_first_date(text):
         return None
 
 
+def find_guidelines(text):
+    # Regular expression pattern to match (number letter number).digit(s)(letter)(optional digit(s))
+    pattern = r'4A1\.\d{1}\(.\)(?:\(\d+\))?'
+
+    # Find all matches in the text
+    matches = re.findall(pattern, text)
+
+    return matches
+
+
 # Extract charges from Post Sentencing Report
 pdf_path = 'USSC_PCR_Sample.pdf'
 charges = get_charges_from_sample_pdf(pdf_path)
@@ -59,6 +69,9 @@ for charge in charges:
 
     # State of trial
     record.state = qa_util.query_the_charge("What American State is it?", charge)
+
+    # Guideline
+    record.guideline = str(find_guidelines(charge))
 
     # Offense description
     record.offense = qa_util.query_the_charge("What offense is the person charged with?", charge)

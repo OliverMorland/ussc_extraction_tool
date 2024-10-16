@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Fixed J or A decision" />
+    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Using regex to find first date">
+      <change afterPath="$PROJECT_DIR$/SampleCriminalHistory.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modifiedkumarscode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +55,7 @@
     "Python.data_set_creator.executor": "Run",
     "Python.llm_test.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.modifiedkumarscode.executor": "Run",
     "Python.psr_csv_util.executor": "Run",
     "Python.trained_model_tester.executor": "Run",
     "Python.trainer.executor": "Run",
@@ -179,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729097756966</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Using regex to find first date">
+      <option name="closed" value="true" />
+      <created>1729098034248</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729098034248</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +219,8 @@
     <MESSAGE value="Tester appears to be working" />
     <MESSAGE value="Trained model on 500 samples" />
     <MESSAGE value="Fixed J or A decision" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed J or A decision" />
+    <MESSAGE value="Using regex to find first date" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using regex to find first date" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

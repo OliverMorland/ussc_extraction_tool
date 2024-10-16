@@ -1,0 +1,122 @@
+[
+  {
+    "context": "03/10/2010\n(Age 22)\nAssault with a deadly weapon Franklin County Court; Lexington, KY 05/12/2010: Guilty, 2 years probation $100 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "08/14/2012\n(Age 30)\nGrand Theft Auto Los Angeles County Court; Los Angeles, CA 09/30/2012: Sentenced to 18 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        109
+      ]
+    }
+  },
+  {
+    "context": "01/12/2001\n(Age 35)\nDrug Possession Harris County Court; Houston, TX 02/25/2001: Sentenced to 3 years in state prison, $200 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "3 years"
+      ],
+      "answer_start": [
+        109
+      ]
+    }
+  },
+  {
+    "context": "11/15/2005\n(Age 40)\nBurglary Orange County Court; Orlando, FL 12/10/2005: Sentenced to 1 year in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1 year"
+      ],
+      "answer_start": [
+        103
+      ]
+    }
+  },
+  {
+    "context": "04/23/2014\n(Age 25)\nVandalism King County Court; Seattle, WA 05/22/2014: Sentenced to 6 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 months"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "06/18/2016\n(Age 28)\nFraud Maricopa County Court; Phoenix, AZ 07/15/2016: Sentenced to 2 years in state prison.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2 years"
+      ],
+      "answer_start": [
+        100
+      ]
+    }
+  },
+  {
+    "context": "09/02/1999\n(Age 35)\nArmed Robbery Cook County Court; Chicago, IL 10/10/1999: Sentenced to 8 years in state prison.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "8 years"
+      ],
+      "answer_start": [
+        93
+      ]
+    }
+  },
+  {
+    "context": "02/14/2012\n(Age 33)\nPetty Theft Los Angeles District Court; Los Angeles, CA 03/18/2012: Sentenced to 3 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "3 months"
+      ],
+      "answer_start": [
+        104
+      ]
+    }
+  },
+  {
+    "context": "05/06/2000\n(Age 27)\nDUI conviction Harris County Court; Houston, TX 06/15/2000: Sentenced to 12 months in state prison.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "12 months"
+      ],
+      "answer_start": [
+        100
+      ]
+    }
+  },
+  {
+    "context": "08/29/2018\n(Age 44)\nAggravated Assault Fairfax County Court; Fairfax, VA 09/20/2018: Sentenced to 5 years in state prison.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "5 years"
+      ],
+      "answer_start": [
+        98
+      ]
+    }
+  }
+]
