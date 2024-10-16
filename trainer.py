@@ -81,3 +81,4 @@ trainer.train()
 
 # Save the fine-tuned model
 trainer.save_model('./fine_tuned_distilbert')
+tokenizer.save_pretrained('./fine_tuned_distilbert')
