@@ -2,8 +2,8 @@ from transformers import DistilBertForQuestionAnswering, DistilBertTokenizerFast
 from datasets import load_dataset
 
 # Load the pre-trained model and tokenizer
-model = DistilBertForQuestionAnswering.from_pretrained("distilbert-base-cased")
-tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-cased")
+model = DistilBertForQuestionAnswering.from_pretrained("distilbert-base-cased-distilled-squad")
+tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-cased-distilled-squad")
 
 # Load your custom dataset
 dataset = load_dataset('json', data_files={'train': 'dataset_10.json'})
