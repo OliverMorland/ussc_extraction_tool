@@ -2,11 +2,12 @@ from transformers import DistilBertForQuestionAnswering, DistilBertTokenizerFast
 from datasets import load_dataset
 
 # Load the pre-trained model and tokenizer
-model = DistilBertForQuestionAnswering.from_pretrained("distilbert-base-cased-distilled-squad")
-tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-cased-distilled-squad")
+model_to_train = './custody_trained_distilbert'
+model = DistilBertForQuestionAnswering.from_pretrained(model_to_train)
+tokenizer = DistilBertTokenizerFast.from_pretrained(model_to_train)
 
 # Load your custom dataset
-dataset = load_dataset('json', data_files={'train': 'custody_dataset_20.json'})
+dataset = load_dataset('json', data_files={'train': 'dataset_500.json'})
 
 
 # Tokenize the inputs
@@ -80,5 +81,6 @@ trainer = Trainer(
 trainer.train()
 
 # Save the fine-tuned model
-trainer.save_model('./state_trained_distilbert')
-tokenizer.save_pretrained('./state_trained_distilbert')
+model_path = './custody_and_state_trained_distilbert'
+trainer.save_model(model_path)
+tokenizer.save_pretrained(model_path)

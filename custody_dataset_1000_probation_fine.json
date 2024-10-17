@@ -244,7 +244,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         72
@@ -640,7 +640,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         76
@@ -772,7 +772,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         72
@@ -796,7 +796,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         76
@@ -832,7 +832,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         79
@@ -844,7 +844,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         82
@@ -892,7 +892,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         74
@@ -1104,11 +1104,11 @@
     }
   },
   {
-    "context": "03/24/1970\n(Age 49)\nOffense; Los Angeles County Court; Los Angeles, CA. 01/18/1975: 2-5 yrs imprisonment.",
+    "context": "03/24/1970\n(Age 49)\nOffense; Los Angeles County Court; Los Angeles, CA. 01/18/1975: 1-2 yrs imprisonment.",
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "2-5 yrs"
+        "1-2 yrs"
       ],
       "answer_start": [
         84
@@ -1132,7 +1132,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         74
@@ -1228,7 +1228,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         78
@@ -1288,7 +1288,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         71
@@ -1312,7 +1312,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         80
@@ -1420,7 +1420,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         70
@@ -1492,7 +1492,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         80
@@ -1852,7 +1852,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         75
@@ -1888,7 +1888,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         80
@@ -2140,7 +2140,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         78
@@ -2260,7 +2260,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         75
@@ -2380,7 +2380,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         79
@@ -2500,7 +2500,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         72
@@ -2512,7 +2512,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         74
@@ -2548,7 +2548,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         78
@@ -2632,7 +2632,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         76
@@ -2668,7 +2668,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         71
@@ -2740,7 +2740,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         75
@@ -2824,7 +2824,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         79
@@ -2932,7 +2932,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         75
@@ -3076,7 +3076,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         80
@@ -3220,7 +3220,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         76
@@ -3244,7 +3244,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         77
@@ -3304,7 +3304,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         76
@@ -3352,7 +3352,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         83
@@ -3412,7 +3412,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         75
@@ -3436,7 +3436,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         76
@@ -3460,7 +3460,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         69
@@ -3484,7 +3484,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         80
@@ -3820,7 +3820,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         74
@@ -4240,7 +4240,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         78
@@ -4252,7 +4252,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         73
@@ -4276,7 +4276,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         79
@@ -4612,7 +4612,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         74
@@ -4864,7 +4864,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         79
@@ -5152,7 +5152,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         78
@@ -5260,7 +5260,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         78
@@ -5596,7 +5596,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         75
@@ -5680,7 +5680,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         77
@@ -5728,7 +5728,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         76
@@ -5740,7 +5740,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         76
@@ -5788,7 +5788,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         75
@@ -5860,7 +5860,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         74
@@ -5932,7 +5932,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         76
@@ -5992,7 +5992,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         74
@@ -6244,7 +6244,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         79
@@ -6280,7 +6280,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         76
@@ -6376,7 +6376,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         72
@@ -6388,7 +6388,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         78
@@ -6688,7 +6688,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         74
@@ -6724,7 +6724,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         80
@@ -6808,7 +6808,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         84
@@ -6904,7 +6904,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         83
@@ -6940,7 +6940,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         76
@@ -7012,7 +7012,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         75
@@ -7096,7 +7096,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         73
@@ -7108,7 +7108,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         79
@@ -7216,7 +7216,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         76
@@ -7288,7 +7288,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         76
@@ -7456,7 +7456,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         74
@@ -7756,7 +7756,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         82
@@ -7888,7 +7888,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         76
@@ -7996,7 +7996,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         77
@@ -8044,7 +8044,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         76
@@ -8176,7 +8176,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         79
@@ -8212,7 +8212,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         75
@@ -8224,7 +8224,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         80
@@ -8452,7 +8452,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         76
@@ -8596,7 +8596,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         80
@@ -8728,7 +8728,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         74
@@ -8764,7 +8764,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         74
@@ -8908,7 +8908,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         80
@@ -9184,7 +9184,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         84
@@ -9244,7 +9244,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         75
@@ -9436,7 +9436,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         76
@@ -9472,7 +9472,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         79
@@ -9592,7 +9592,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         74
@@ -9640,7 +9640,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         69
@@ -9796,7 +9796,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         77
@@ -9952,7 +9952,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         75
@@ -10060,7 +10060,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         76
@@ -10120,7 +10120,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         76
@@ -10156,7 +10156,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         75
@@ -10180,7 +10180,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         75
@@ -10312,7 +10312,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "6 - 12 months custody"
+        "6 - 12 months"
       ],
       "answer_start": [
         78
@@ -10720,7 +10720,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         76
@@ -10732,7 +10732,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         76
@@ -11164,7 +11164,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         84
@@ -11668,7 +11668,7 @@
     "question": "How much time in custody was sentenced?",
     "answers": {
       "text": [
-        "90 days custody"
+        "90 days"
       ],
       "answer_start": [
         69
