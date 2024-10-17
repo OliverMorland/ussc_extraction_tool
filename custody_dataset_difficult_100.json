@@ -1,0 +1,1202 @@
+[
+  {
+    "context": "06/28/1982\n(Age 37)\nLarceny of Property\n$250 or Less\nChicago Municipal Court; Chicago, IL\n10/27/1987: Guilty plea, 2 years imprisonment\n06/3/1987: Paroled\n12/14/1981: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2 years"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/6/1988\n(Age 42)\nLarceny of Property\n$250 or Less\nFairfax Municipal Court; Fairfax, VA\n10/14/1981: Guilty plea, 10-15 years imprisonment\n06/16/1983: Paroled\n12/4/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "10-15 years"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/24/1987\n(Age 60)\nLarceny of Property\n$250 or Less\nNorfolk Municipal Court; Norfolk, VA\n10/3/1980: Guilty plea, 20 years imprisonment\n06/1/1983: Paroled\n12/27/1989: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "20 years"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/10/1982\n(Age 51)\nLarceny of Property\n$250 or Less\nAustin Municipal Court; Austin, TX\n10/18/1985: Guilty plea, 12 months imprisonment\n06/8/1987: Paroled\n12/20/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "12 months"
+      ],
+      "answer_start": [
+        113
+      ]
+    }
+  },
+  {
+    "context": "06/3/1980\n(Age 31)\nLarceny of Property\n$250 or Less\nMontgomery Municipal Court; Montgomery, AL\n10/8/1986: Guilty plea, 1 year imprisonment\n06/18/1983: Paroled\n12/17/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1 year"
+      ],
+      "answer_start": [
+        119
+      ]
+    }
+  },
+  {
+    "context": "06/16/1986\n(Age 30)\nLarceny of Property\n$250 or Less\nDallas Municipal Court; Dallas, TX\n10/5/1985: Guilty plea, 18 months imprisonment\n06/17/1988: Paroled\n12/15/1983: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        112
+      ]
+    }
+  },
+  {
+    "context": "06/11/1980\n(Age 40)\nLarceny of Property\n$250 or Less\nPhoenix Municipal Court; Phoenix, AZ\n10/28/1988: Guilty plea, 3 years imprisonment\n06/13/1985: Paroled\n12/18/1987: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "3 years"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/17/1988\n(Age 41)\nLarceny of Property\n$250 or Less\nSeattle Municipal Court; Seattle, WA\n10/14/1985: Guilty plea, 3 years imprisonment\n06/22/1983: Paroled\n12/2/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "3 years"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/23/1986\n(Age 49)\nLarceny of Property\n$250 or Less\nSan Diego Municipal Court; San Diego, CA\n10/9/1980: Guilty plea, 6 months imprisonment\n06/15/1989: Paroled\n12/10/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 months"
+      ],
+      "answer_start": [
+        118
+      ]
+    }
+  },
+  {
+    "context": "06/23/1982\n(Age 48)\nLarceny of Property\n$250 or Less\nAustin Municipal Court; Austin, TX\n10/4/1989: Guilty plea, 3 years imprisonment\n06/13/1981: Paroled\n12/26/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "3 years"
+      ],
+      "answer_start": [
+        112
+      ]
+    }
+  },
+  {
+    "context": "06/15/1988\n(Age 37)\nLarceny of Property\n$250 or Less\nSpringfield Municipal Court; Springfield, IL\n10/8/1989: Guilty plea, 9 months imprisonment\n06/12/1982: Paroled\n12/17/1986: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "9 months"
+      ],
+      "answer_start": [
+        122
+      ]
+    }
+  },
+  {
+    "context": "06/20/1981\n(Age 34)\nLarceny of Property\n$250 or Less\nMontgomery Municipal Court; Montgomery, AL\n10/13/1988: Guilty plea, 18 months imprisonment\n06/5/1983: Paroled\n12/10/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        121
+      ]
+    }
+  },
+  {
+    "context": "06/15/1986\n(Age 48)\nLarceny of Property\n$250 or Less\nCambridge Municipal Court; Cambridge, MA\n10/17/1985: Guilty plea, 1 year imprisonment\n06/11/1989: Paroled\n12/16/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1 year"
+      ],
+      "answer_start": [
+        119
+      ]
+    }
+  },
+  {
+    "context": "06/23/1984\n(Age 18)\nLarceny of Property\n$250 or Less\nSpokane Municipal Court; Spokane, WA\n10/15/1983: Guilty plea, 12 months imprisonment\n06/22/1988: Paroled\n12/11/1981: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "12 months"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/1/1982\n(Age 26)\nLarceny of Property\n$250 or Less\nBuffalo Municipal Court; Buffalo, NY\n10/27/1988: Guilty plea, 12 months imprisonment\n06/5/1984: Paroled\n12/12/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "12 months"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/27/1980\n(Age 36)\nLarceny of Property\n$250 or Less\nHenderson Municipal Court; Henderson, NV\n10/16/1985: Guilty plea, 5-7 yrs imprisonment\n06/8/1982: Paroled\n12/14/1986: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "5-7 yrs"
+      ],
+      "answer_start": [
+        119
+      ]
+    }
+  },
+  {
+    "context": "06/11/1984\n(Age 60)\nLarceny of Property\n$250 or Less\nTacoma Municipal Court; Tacoma, WA\n10/1/1983: Guilty plea, 4 months imprisonment\n06/24/1988: Paroled\n12/11/1987: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "4 months"
+      ],
+      "answer_start": [
+        112
+      ]
+    }
+  },
+  {
+    "context": "06/6/1988\n(Age 44)\nLarceny of Property\n$250 or Less\nSavannah Municipal Court; Savannah, GA\n10/19/1980: Guilty plea, 10-15 years imprisonment\n06/5/1984: Paroled\n12/4/1989: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "10-15 years"
+      ],
+      "answer_start": [
+        116
+      ]
+    }
+  },
+  {
+    "context": "06/15/1985\n(Age 45)\nLarceny of Property\n$250 or Less\nNew York Municipal Court; New York, NY\n10/5/1980: Guilty plea, 6 months imprisonment\n06/15/1989: Paroled\n12/15/1982: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 months"
+      ],
+      "answer_start": [
+        116
+      ]
+    }
+  },
+  {
+    "context": "06/24/1987\n(Age 19)\nLarceny of Property\n$250 or Less\nTampa Municipal Court; Tampa, FL\n10/10/1982: Guilty plea, 1 year imprisonment\n06/1/1981: Paroled\n12/12/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1 year"
+      ],
+      "answer_start": [
+        111
+      ]
+    }
+  },
+  {
+    "context": "06/8/1988\n(Age 49)\nLarceny of Property\n$250 or Less\nDallas Municipal Court; Dallas, TX\n10/21/1986: Guilty plea, 1 year imprisonment\n06/23/1983: Paroled\n12/19/1982: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1 year"
+      ],
+      "answer_start": [
+        112
+      ]
+    }
+  },
+  {
+    "context": "06/3/1986\n(Age 53)\nLarceny of Property\n$250 or Less\nCambridge Municipal Court; Cambridge, MA\n10/18/1981: Guilty plea, 6 months imprisonment\n06/5/1987: Paroled\n12/1/1982: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 months"
+      ],
+      "answer_start": [
+        118
+      ]
+    }
+  },
+  {
+    "context": "06/8/1983\n(Age 29)\nLarceny of Property\n$250 or Less\nLos Angeles Municipal Court; Los Angeles, CA\n10/23/1987: Guilty plea, 18 months imprisonment\n06/14/1989: Paroled\n12/1/1989: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        122
+      ]
+    }
+  },
+  {
+    "context": "06/27/1986\n(Age 15)\nLarceny of Property\n$250 or Less\nPhoenix Municipal Court; Phoenix, AZ\n10/9/1983: Guilty plea, 2-5 yrs imprisonment\n06/9/1989: Paroled\n12/9/1989: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2-5 yrs"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/13/1987\n(Age 34)\nLarceny of Property\n$250 or Less\nMobile Municipal Court; Mobile, AL\n10/12/1980: Guilty plea, 2-5 yrs imprisonment\n06/22/1989: Paroled\n12/26/1986: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2-5 yrs"
+      ],
+      "answer_start": [
+        113
+      ]
+    }
+  },
+  {
+    "context": "06/7/1980\n(Age 25)\nLarceny of Property\n$250 or Less\nBuffalo Municipal Court; Buffalo, NY\n10/13/1982: Guilty plea, 2 years imprisonment\n06/14/1982: Paroled\n12/3/1986: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2 years"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/19/1987\n(Age 34)\nLarceny of Property\n$250 or Less\nSan Francisco Municipal Court; San Francisco, CA\n10/1/1988: Guilty plea, 1 year imprisonment\n06/23/1989: Paroled\n12/23/1982: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1 year"
+      ],
+      "answer_start": [
+        126
+      ]
+    }
+  },
+  {
+    "context": "06/18/1989\n(Age 53)\nLarceny of Property\n$250 or Less\nSeattle Municipal Court; Seattle, WA\n10/15/1984: Guilty plea, 2 years imprisonment\n06/4/1982: Paroled\n12/9/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2 years"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/23/1984\n(Age 49)\nLarceny of Property\n$250 or Less\nNorfolk Municipal Court; Norfolk, VA\n10/13/1988: Guilty plea, 1 year imprisonment\n06/27/1981: Paroled\n12/24/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1 year"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/12/1985\n(Age 38)\nLarceny of Property\n$250 or Less\nHenderson Municipal Court; Henderson, NV\n10/14/1988: Guilty plea, 8 years imprisonment\n06/15/1982: Paroled\n12/18/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "8 years"
+      ],
+      "answer_start": [
+        119
+      ]
+    }
+  },
+  {
+    "context": "06/4/1983\n(Age 42)\nLarceny of Property\n$250 or Less\nChicago Municipal Court; Chicago, IL\n10/23/1985: Guilty plea, 12 months imprisonment\n06/14/1989: Paroled\n12/26/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "12 months"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/15/1988\n(Age 52)\nLarceny of Property\n$250 or Less\nTampa Municipal Court; Tampa, FL\n10/15/1981: Guilty plea, 5-7 yrs imprisonment\n06/3/1981: Paroled\n12/24/1983: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "5-7 yrs"
+      ],
+      "answer_start": [
+        111
+      ]
+    }
+  },
+  {
+    "context": "06/1/1983\n(Age 36)\nLarceny of Property\n$250 or Less\nChicago Municipal Court; Chicago, IL\n10/27/1980: Guilty plea, 20 years imprisonment\n06/23/1988: Paroled\n12/26/1987: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "20 years"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/3/1980\n(Age 33)\nLarceny of Property\n$250 or Less\nOrlando Municipal Court; Orlando, FL\n10/2/1988: Guilty plea, 7 years imprisonment\n06/23/1985: Paroled\n12/19/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "7 years"
+      ],
+      "answer_start": [
+        113
+      ]
+    }
+  },
+  {
+    "context": "06/11/1980\n(Age 51)\nLarceny of Property\n$250 or Less\nHouston Municipal Court; Houston, TX\n10/5/1980: Guilty plea, 6-12 months imprisonment\n06/27/1984: Paroled\n12/14/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6-12 months"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/24/1986\n(Age 54)\nLarceny of Property\n$250 or Less\nBuffalo Municipal Court; Buffalo, NY\n10/3/1984: Guilty plea, 2 years imprisonment\n06/7/1985: Paroled\n12/25/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2 years"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/26/1987\n(Age 28)\nLarceny of Property\n$250 or Less\nDallas Municipal Court; Dallas, TX\n10/7/1989: Guilty plea, 4 months imprisonment\n06/23/1985: Paroled\n12/17/1989: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "4 months"
+      ],
+      "answer_start": [
+        112
+      ]
+    }
+  },
+  {
+    "context": "06/5/1989\n(Age 27)\nLarceny of Property\n$250 or Less\nSpokane Municipal Court; Spokane, WA\n10/5/1983: Guilty plea, 6-12 months imprisonment\n06/20/1986: Paroled\n12/20/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6-12 months"
+      ],
+      "answer_start": [
+        113
+      ]
+    }
+  },
+  {
+    "context": "06/2/1984\n(Age 19)\nLarceny of Property\n$250 or Less\nLos Angeles Municipal Court; Los Angeles, CA\n10/8/1984: Guilty plea, 18 months imprisonment\n06/12/1989: Paroled\n12/24/1987: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        121
+      ]
+    }
+  },
+  {
+    "context": "06/25/1986\n(Age 53)\nLarceny of Property\n$250 or Less\nAlbany Municipal Court; Albany, NY\n10/16/1987: Guilty plea, 2-5 yrs imprisonment\n06/28/1983: Paroled\n12/23/1987: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2-5 yrs"
+      ],
+      "answer_start": [
+        113
+      ]
+    }
+  },
+  {
+    "context": "06/26/1981\n(Age 59)\nLarceny of Property\n$250 or Less\nTampa Municipal Court; Tampa, FL\n10/9/1985: Guilty plea, 4 months imprisonment\n06/22/1982: Paroled\n12/18/1986: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "4 months"
+      ],
+      "answer_start": [
+        110
+      ]
+    }
+  },
+  {
+    "context": "06/19/1984\n(Age 25)\nLarceny of Property\n$250 or Less\nBirmingham Municipal Court; Birmingham, AL\n10/21/1981: Guilty plea, 5-7 yrs imprisonment\n06/16/1981: Paroled\n12/28/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "5-7 yrs"
+      ],
+      "answer_start": [
+        121
+      ]
+    }
+  },
+  {
+    "context": "06/21/1981\n(Age 41)\nLarceny of Property\n$250 or Less\nNorfolk Municipal Court; Norfolk, VA\n10/14/1987: Guilty plea, 7 years imprisonment\n06/24/1985: Paroled\n12/17/1982: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "7 years"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/27/1989\n(Age 52)\nLarceny of Property\n$250 or Less\nTampa Municipal Court; Tampa, FL\n10/23/1981: Guilty plea, 1 year imprisonment\n06/26/1985: Paroled\n12/25/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1 year"
+      ],
+      "answer_start": [
+        111
+      ]
+    }
+  },
+  {
+    "context": "06/10/1985\n(Age 53)\nLarceny of Property\n$250 or Less\nAlbany Municipal Court; Albany, NY\n10/10/1981: Guilty plea, 7 years imprisonment\n06/5/1988: Paroled\n12/4/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "7 years"
+      ],
+      "answer_start": [
+        113
+      ]
+    }
+  },
+  {
+    "context": "06/26/1988\n(Age 32)\nLarceny of Property\n$250 or Less\nAugusta Municipal Court; Augusta, GA\n10/26/1989: Guilty plea, 10-15 years imprisonment\n06/11/1984: Paroled\n12/27/1987: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "10-15 years"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/19/1987\n(Age 33)\nLarceny of Property\n$250 or Less\nRichmond Municipal Court; Richmond, VA\n10/12/1980: Guilty plea, 18 months imprisonment\n06/12/1987: Paroled\n12/13/1989: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        117
+      ]
+    }
+  },
+  {
+    "context": "06/11/1984\n(Age 46)\nLarceny of Property\n$250 or Less\nReno Municipal Court; Reno, NV\n10/16/1985: Guilty plea, 7 years imprisonment\n06/24/1985: Paroled\n12/5/1987: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "7 years"
+      ],
+      "answer_start": [
+        109
+      ]
+    }
+  },
+  {
+    "context": "06/20/1989\n(Age 23)\nLarceny of Property\n$250 or Less\nSan Francisco Municipal Court; San Francisco, CA\n10/17/1983: Guilty plea, 1 year imprisonment\n06/25/1982: Paroled\n12/1/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1 year"
+      ],
+      "answer_start": [
+        127
+      ]
+    }
+  },
+  {
+    "context": "06/20/1985\n(Age 39)\nLarceny of Property\n$250 or Less\nSeattle Municipal Court; Seattle, WA\n10/6/1982: Guilty plea, 7 years imprisonment\n06/28/1985: Paroled\n12/7/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "7 years"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/14/1982\n(Age 13)\nLarceny of Property\n$250 or Less\nColumbus Municipal Court; Columbus, OH\n10/21/1982: Guilty plea, 2-5 yrs imprisonment\n06/10/1984: Paroled\n12/5/1982: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2-5 yrs"
+      ],
+      "answer_start": [
+        117
+      ]
+    }
+  },
+  {
+    "context": "06/16/1987\n(Age 53)\nLarceny of Property\n$250 or Less\nCincinnati Municipal Court; Cincinnati, OH\n10/2/1987: Guilty plea, 9 months imprisonment\n06/17/1983: Paroled\n12/6/1986: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "9 months"
+      ],
+      "answer_start": [
+        120
+      ]
+    }
+  },
+  {
+    "context": "06/27/1980\n(Age 35)\nLarceny of Property\n$250 or Less\nTucson Municipal Court; Tucson, AZ\n10/10/1982: Guilty plea, 1 year imprisonment\n06/6/1986: Paroled\n12/7/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1 year"
+      ],
+      "answer_start": [
+        113
+      ]
+    }
+  },
+  {
+    "context": "06/19/1982\n(Age 38)\nLarceny of Property\n$250 or Less\nAugusta Municipal Court; Augusta, GA\n10/1/1984: Guilty plea, 10-15 years imprisonment\n06/4/1984: Paroled\n12/27/1989: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "10-15 years"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/27/1980\n(Age 29)\nLarceny of Property\n$250 or Less\nBoulder Municipal Court; Boulder, CO\n10/2/1988: Guilty plea, 5-7 yrs imprisonment\n06/2/1989: Paroled\n12/10/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "5-7 yrs"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/25/1988\n(Age 19)\nLarceny of Property\n$250 or Less\nChicago Municipal Court; Chicago, IL\n10/19/1983: Guilty plea, 2-5 yrs imprisonment\n06/1/1986: Paroled\n12/2/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2-5 yrs"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/6/1986\n(Age 27)\nLarceny of Property\n$250 or Less\nMontgomery Municipal Court; Montgomery, AL\n10/9/1980: Guilty plea, 7 years imprisonment\n06/24/1984: Paroled\n12/2/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "7 years"
+      ],
+      "answer_start": [
+        119
+      ]
+    }
+  },
+  {
+    "context": "06/2/1980\n(Age 50)\nLarceny of Property\n$250 or Less\nAustin Municipal Court; Austin, TX\n10/18/1981: Guilty plea, 18 months imprisonment\n06/11/1984: Paroled\n12/6/1989: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        112
+      ]
+    }
+  },
+  {
+    "context": "06/2/1980\n(Age 36)\nLarceny of Property\n$250 or Less\nCincinnati Municipal Court; Cincinnati, OH\n10/15/1983: Guilty plea, 12 months imprisonment\n06/27/1989: Paroled\n12/9/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "12 months"
+      ],
+      "answer_start": [
+        120
+      ]
+    }
+  },
+  {
+    "context": "06/28/1989\n(Age 56)\nLarceny of Property\n$250 or Less\nChicago Municipal Court; Chicago, IL\n10/25/1985: Guilty plea, 6 months imprisonment\n06/9/1985: Paroled\n12/27/1987: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 months"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/27/1987\n(Age 46)\nLarceny of Property\n$250 or Less\nSavannah Municipal Court; Savannah, GA\n10/21/1989: Guilty plea, 6-12 months imprisonment\n06/3/1985: Paroled\n12/10/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6-12 months"
+      ],
+      "answer_start": [
+        117
+      ]
+    }
+  },
+  {
+    "context": "06/18/1981\n(Age 45)\nLarceny of Property\n$250 or Less\nCincinnati Municipal Court; Cincinnati, OH\n10/24/1989: Guilty plea, 10-15 years imprisonment\n06/12/1983: Paroled\n12/3/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "10-15 years"
+      ],
+      "answer_start": [
+        121
+      ]
+    }
+  },
+  {
+    "context": "06/16/1984\n(Age 43)\nLarceny of Property\n$250 or Less\nSeattle Municipal Court; Seattle, WA\n10/11/1981: Guilty plea, 5-7 yrs imprisonment\n06/17/1987: Paroled\n12/26/1981: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "5-7 yrs"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/6/1982\n(Age 34)\nLarceny of Property\n$250 or Less\nPhoenix Municipal Court; Phoenix, AZ\n10/12/1988: Guilty plea, 4 months imprisonment\n06/7/1987: Paroled\n12/2/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "4 months"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/16/1985\n(Age 55)\nLarceny of Property\n$250 or Less\nNew York Municipal Court; New York, NY\n10/3/1980: Guilty plea, 2 years imprisonment\n06/14/1981: Paroled\n12/24/1983: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2 years"
+      ],
+      "answer_start": [
+        116
+      ]
+    }
+  },
+  {
+    "context": "06/12/1982\n(Age 18)\nLarceny of Property\n$250 or Less\nHouston Municipal Court; Houston, TX\n10/5/1981: Guilty plea, 12 months imprisonment\n06/14/1982: Paroled\n12/24/1982: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "12 months"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/27/1981\n(Age 21)\nLarceny of Property\n$250 or Less\nMiami Municipal Court; Miami, FL\n10/22/1984: Guilty plea, 8 years imprisonment\n06/8/1987: Paroled\n12/20/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "8 years"
+      ],
+      "answer_start": [
+        111
+      ]
+    }
+  },
+  {
+    "context": "06/5/1985\n(Age 38)\nLarceny of Property\n$250 or Less\nMesa Municipal Court; Mesa, AZ\n10/10/1989: Guilty plea, 6-12 months imprisonment\n06/9/1986: Paroled\n12/11/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6-12 months"
+      ],
+      "answer_start": [
+        108
+      ]
+    }
+  },
+  {
+    "context": "06/11/1984\n(Age 43)\nLarceny of Property\n$250 or Less\nColumbus Municipal Court; Columbus, OH\n10/5/1987: Guilty plea, 12 months imprisonment\n06/22/1985: Paroled\n12/21/1982: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "12 months"
+      ],
+      "answer_start": [
+        116
+      ]
+    }
+  },
+  {
+    "context": "06/7/1985\n(Age 45)\nLarceny of Property\n$250 or Less\nAurora Municipal Court; Aurora, CO\n10/3/1988: Guilty plea, 20 years imprisonment\n06/23/1982: Paroled\n12/2/1989: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "20 years"
+      ],
+      "answer_start": [
+        111
+      ]
+    }
+  },
+  {
+    "context": "06/10/1988\n(Age 60)\nLarceny of Property\n$250 or Less\nSeattle Municipal Court; Seattle, WA\n10/10/1983: Guilty plea, 18 months imprisonment\n06/5/1989: Paroled\n12/15/1981: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/21/1988\n(Age 31)\nLarceny of Property\n$250 or Less\nSavannah Municipal Court; Savannah, GA\n10/24/1985: Guilty plea, 10-15 years imprisonment\n06/27/1983: Paroled\n12/25/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "10-15 years"
+      ],
+      "answer_start": [
+        117
+      ]
+    }
+  },
+  {
+    "context": "06/6/1981\n(Age 51)\nLarceny of Property\n$250 or Less\nReno Municipal Court; Reno, NV\n10/24/1983: Guilty plea, 12 months imprisonment\n06/18/1984: Paroled\n12/3/1981: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "12 months"
+      ],
+      "answer_start": [
+        108
+      ]
+    }
+  },
+  {
+    "context": "06/11/1980\n(Age 57)\nLarceny of Property\n$250 or Less\nReno Municipal Court; Reno, NV\n10/28/1989: Guilty plea, 18 months imprisonment\n06/20/1987: Paroled\n12/12/1981: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        109
+      ]
+    }
+  },
+  {
+    "context": "06/14/1982\n(Age 49)\nLarceny of Property\n$250 or Less\nSavannah Municipal Court; Savannah, GA\n10/16/1987: Guilty plea, 1 year imprisonment\n06/5/1983: Paroled\n12/17/1989: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1 year"
+      ],
+      "answer_start": [
+        117
+      ]
+    }
+  },
+  {
+    "context": "06/16/1983\n(Age 28)\nLarceny of Property\n$250 or Less\nTampa Municipal Court; Tampa, FL\n10/28/1987: Guilty plea, 8 years imprisonment\n06/18/1987: Paroled\n12/17/1981: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "8 years"
+      ],
+      "answer_start": [
+        111
+      ]
+    }
+  },
+  {
+    "context": "06/6/1986\n(Age 58)\nLarceny of Property\n$250 or Less\nTucson Municipal Court; Tucson, AZ\n10/27/1985: Guilty plea, 5-7 yrs imprisonment\n06/19/1982: Paroled\n12/27/1982: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "5-7 yrs"
+      ],
+      "answer_start": [
+        112
+      ]
+    }
+  },
+  {
+    "context": "06/15/1986\n(Age 60)\nLarceny of Property\n$250 or Less\nMiami Municipal Court; Miami, FL\n10/12/1980: Guilty plea, 7 years imprisonment\n06/1/1984: Paroled\n12/6/1983: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "7 years"
+      ],
+      "answer_start": [
+        111
+      ]
+    }
+  },
+  {
+    "context": "06/9/1988\n(Age 26)\nLarceny of Property\n$250 or Less\nDallas Municipal Court; Dallas, TX\n10/22/1987: Guilty plea, 9 months imprisonment\n06/26/1988: Paroled\n12/15/1986: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "9 months"
+      ],
+      "answer_start": [
+        112
+      ]
+    }
+  },
+  {
+    "context": "06/25/1985\n(Age 26)\nLarceny of Property\n$250 or Less\nSan Diego Municipal Court; San Diego, CA\n10/12/1986: Guilty plea, 4 months imprisonment\n06/23/1988: Paroled\n12/16/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "4 months"
+      ],
+      "answer_start": [
+        119
+      ]
+    }
+  },
+  {
+    "context": "06/10/1983\n(Age 20)\nLarceny of Property\n$250 or Less\nHenderson Municipal Court; Henderson, NV\n10/6/1985: Guilty plea, 20 years imprisonment\n06/6/1986: Paroled\n12/24/1981: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "20 years"
+      ],
+      "answer_start": [
+        118
+      ]
+    }
+  },
+  {
+    "context": "06/15/1980\n(Age 25)\nLarceny of Property\n$250 or Less\nBirmingham Municipal Court; Birmingham, AL\n10/5/1984: Guilty plea, 1 year imprisonment\n06/16/1988: Paroled\n12/16/1989: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1 year"
+      ],
+      "answer_start": [
+        120
+      ]
+    }
+  },
+  {
+    "context": "06/23/1981\n(Age 22)\nLarceny of Property\n$250 or Less\nAlbany Municipal Court; Albany, NY\n10/6/1983: Guilty plea, 20 years imprisonment\n06/27/1988: Paroled\n12/18/1987: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "20 years"
+      ],
+      "answer_start": [
+        112
+      ]
+    }
+  },
+  {
+    "context": "06/16/1984\n(Age 36)\nLarceny of Property\n$250 or Less\nMobile Municipal Court; Mobile, AL\n10/20/1982: Guilty plea, 18 months imprisonment\n06/20/1984: Paroled\n12/4/1981: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        113
+      ]
+    }
+  },
+  {
+    "context": "06/8/1984\n(Age 37)\nLarceny of Property\n$250 or Less\nAustin Municipal Court; Austin, TX\n10/1/1988: Guilty plea, 18 months imprisonment\n06/24/1989: Paroled\n12/27/1982: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        111
+      ]
+    }
+  },
+  {
+    "context": "06/14/1981\n(Age 60)\nLarceny of Property\n$250 or Less\nCincinnati Municipal Court; Cincinnati, OH\n10/28/1984: Guilty plea, 3 years imprisonment\n06/9/1981: Paroled\n12/10/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "3 years"
+      ],
+      "answer_start": [
+        121
+      ]
+    }
+  },
+  {
+    "context": "06/28/1982\n(Age 55)\nLarceny of Property\n$250 or Less\nMobile Municipal Court; Mobile, AL\n10/1/1987: Guilty plea, 6 months imprisonment\n06/1/1989: Paroled\n12/18/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 months"
+      ],
+      "answer_start": [
+        112
+      ]
+    }
+  },
+  {
+    "context": "06/18/1985\n(Age 52)\nLarceny of Property\n$250 or Less\nMontgomery Municipal Court; Montgomery, AL\n10/14/1983: Guilty plea, 8 years imprisonment\n06/18/1987: Paroled\n12/22/1988: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "8 years"
+      ],
+      "answer_start": [
+        121
+      ]
+    }
+  },
+  {
+    "context": "06/21/1988\n(Age 56)\nLarceny of Property\n$250 or Less\nLos Angeles Municipal Court; Los Angeles, CA\n10/8/1988: Guilty plea, 10-15 years imprisonment\n06/23/1983: Paroled\n12/16/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "10-15 years"
+      ],
+      "answer_start": [
+        122
+      ]
+    }
+  },
+  {
+    "context": "06/14/1984\n(Age 27)\nLarceny of Property\n$250 or Less\nNorfolk Municipal Court; Norfolk, VA\n10/12/1982: Guilty plea, 6-12 months imprisonment\n06/19/1982: Paroled\n12/14/1982: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6-12 months"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/27/1980\n(Age 41)\nLarceny of Property\n$250 or Less\nNew York Municipal Court; New York, NY\n10/24/1981: Guilty plea, 9 months imprisonment\n06/2/1982: Paroled\n12/28/1981: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "9 months"
+      ],
+      "answer_start": [
+        117
+      ]
+    }
+  },
+  {
+    "context": "06/10/1986\n(Age 52)\nLarceny of Property\n$250 or Less\nNorfolk Municipal Court; Norfolk, VA\n10/25/1987: Guilty plea, 18 months imprisonment\n06/19/1982: Paroled\n12/4/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/23/1980\n(Age 46)\nLarceny of Property\n$250 or Less\nTacoma Municipal Court; Tacoma, WA\n10/11/1980: Guilty plea, 10-15 years imprisonment\n06/2/1987: Paroled\n12/23/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "10-15 years"
+      ],
+      "answer_start": [
+        113
+      ]
+    }
+  },
+  {
+    "context": "06/25/1986\n(Age 19)\nLarceny of Property\n$250 or Less\nChicago Municipal Court; Chicago, IL\n10/1/1980: Guilty plea, 6 months imprisonment\n06/7/1982: Paroled\n12/28/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 months"
+      ],
+      "answer_start": [
+        114
+      ]
+    }
+  },
+  {
+    "context": "06/11/1988\n(Age 16)\nLarceny of Property\n$250 or Less\nAlbany Municipal Court; Albany, NY\n10/12/1989: Guilty plea, 10-15 years imprisonment\n06/17/1989: Paroled\n12/4/1981: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "10-15 years"
+      ],
+      "answer_start": [
+        113
+      ]
+    }
+  },
+  {
+    "context": "06/12/1989\n(Age 36)\nLarceny of Property\n$250 or Less\nAtlanta Municipal Court; Atlanta, GA\n10/19/1982: Guilty plea, 18 months imprisonment\n06/23/1989: Paroled\n12/19/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        115
+      ]
+    }
+  },
+  {
+    "context": "06/4/1988\n(Age 31)\nLarceny of Property\n$250 or Less\nBirmingham Municipal Court; Birmingham, AL\n10/13/1980: Guilty plea, 9 months imprisonment\n06/10/1989: Paroled\n12/2/1981: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "9 months"
+      ],
+      "answer_start": [
+        120
+      ]
+    }
+  },
+  {
+    "context": "06/24/1989\n(Age 20)\nLarceny of Property\n$250 or Less\nSavannah Municipal Court; Savannah, GA\n10/10/1989: Guilty plea, 6 months imprisonment\n06/7/1985: Paroled\n12/13/1984: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 months"
+      ],
+      "answer_start": [
+        117
+      ]
+    }
+  },
+  {
+    "context": "06/14/1983\n(Age 51)\nLarceny of Property\n$250 or Less\nDenver Municipal Court; Denver, CO\n10/25/1980: Guilty plea, 18 months imprisonment\n06/14/1989: Paroled\n12/20/1985: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        113
+      ]
+    }
+  },
+  {
+    "context": "06/3/1983\n(Age 32)\nLarceny of Property\n$250 or Less\nTacoma Municipal Court; Tacoma, WA\n10/18/1981: Guilty plea, 2-5 yrs imprisonment\n06/5/1983: Paroled\n12/26/1987: Parole Revoked, 6 months\u2019 imprisonment, released at expiration",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2-5 yrs"
+      ],
+      "answer_start": [
+        112
+      ]
+    }
+  }
+]

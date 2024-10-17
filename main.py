@@ -64,10 +64,10 @@ for charge in charges:
         record.ja = "A"
 
     # Custody length
-    record.custody_length_imposed = qa_util.query_the_charge("How much time was sentenced in custody?", charge)
+    record.custody_length_imposed = qa_util.query_the_charge("How much time in custody was sentenced?", charge)
 
     # Probation length
-    record.probation_length = qa_util.query_the_charge("How much time was sentenced in probation?", charge)
+    record.probation_length = qa_util.query_the_charge("How much time in probation was sentenced?", charge)
 
     # State of trial
     record.state = qa_util.query_the_charge("What American State is it?", charge)

@@ -2,7 +2,7 @@ from transformers import DistilBertForQuestionAnswering, DistilBertTokenizerFast
 import torch
 
 # Load the fine-tuned model and tokenizer from the saved directory
-model_path = './custody_and_state_trained_distilbert'
+model_path = './new_custody_and_state_trained_distilbert'
 model = DistilBertForQuestionAnswering.from_pretrained(model_path)
 tokenizer = DistilBertTokenizerFast.from_pretrained(model_path)
 
@@ -36,23 +36,6 @@ def answer_question(context, question):
     return answer
 
 
-test_samples = [
-    "09/24/1975\n(Age 15)\nBreaking and Entering (2 counts); Rustle County Juvenile Court, Case No. 2055JD147; Columbus, AL. 11/04/1975: 6 months custody on each count to run consecutively, $50 fine. 03/30/1976: Paroled.",
-    "12/20/2016\n(Age 57)\nShoplifting under $100 Brockton District Court; Brockton, MA 01/05/2017: Guilty plea, 90 days in custody, 1 year unsupervised probation, $35 to victim witness fund.",
-    "03/10/2010\n(Age 22)\nAssault with a deadly weapon Franklin County Court; Lexington, KY 05/12/2010: Guilty, 2 years probation $100 fine. weapon Franklin County Court; Lexington, KY ",
-    "10/30/1997\n(Age 27)\nOliver Morland assaulted a passerby, 1 yr in jail, 6 months probation, $90 fine.",
-    "10/30/1997\n(Age 27)\nOliver Morland stabbed a mango at the supermarket, 3 years in prison and 6 months probation."
-
-]
-
-# Test the model with a new context and question
-custody_question = "How much time in custody was sentenced?"
-state_question = "What American State is it?"
-
-
-# Get the answer from the model
-# answer = answer_question(context, question)
-
 def get_answers_for_question(question, samples):
     for sample in samples:
         answer = answer_question(sample, question)
@@ -61,8 +44,68 @@ def get_answers_for_question(question, samples):
         print(f"Answer: {answer}")
 
 
+test_samples = [
+    """06/01/1980
+(Age 21)
+Larceny of Property
+$250 or Less
+Brockton
+Municipal Court;
+Brockton, MA
+10/23/1980:
+Guilty plea, 2-5 yrs.
+Imprisonment
+06/10/1981:
+Paroled
+12/24/1981: Parole
+Revoked, 6 months’
+imprisonment, released at
+expiration
+4A1.2(e)(3) 0""",
+    """12/20/2016
+(Age 57)
+Shoplifting under
+$100 Brockton
+District Court;
+Brockton, MA
+01/05/2017: Guilty plea, 1
+year unsupervised probation,
+$35 to victim witness fund
+4A1.1(c) 1""",
+    """02/16/2014
+(Age 55)
+Uttering a
+Counterfeit
+Instrument and
+Attempt to Utter a
+Counterfeit
+Instrument.
+US District Court,
+District of
+Massachusetts;
+Cincinatti, OH
+06/23/2014:
+Guilty plea, time served, 3
+years supervised release,
+$251 restitution, $100
+Special Assessment
+09/17/2015: Supervised
+release revoked. 3 months’
+custody, credit for time
+served, no TSR to follow
+4A1.1(b)"""
+]
+
+# Test the model with a new context and question
+custody_question = "How much time in custody was sentenced?"
+state_question = "What American State is it?"
+probation_question = "How much time in probation was sentenced?"
+
+# Get the answer from the model
+# answer = answer_question(context, question)
+
+
 get_answers_for_question(custody_question, test_samples)
-get_answers_for_question(state_question, test_samples)
 
 # Print the answer
 # print(f"Question: {question}")
