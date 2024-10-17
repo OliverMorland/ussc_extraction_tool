@@ -1,0 +1,637 @@
+[
+  {
+    "context": "11/21/1973\n(Age 13)\nUnruly Behavior; Rustle County Juvenile Court, Case No. 2015JD247; Columbus, AL. 01/18/1974: 6 - 12 months custody, probation, and $25 fine 4A1.2(e) 0",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 - 12 months"
+      ],
+      "answer_start": [
+        121
+      ]
+    }
+  },
+  {
+    "context": "09/24/1975\n(Age 15)\nBreaking and Entering (2 counts); Rustle County Juvenile Court, Case No. 2055JD147; Columbus, AL. 11/04/1975: 6 months custody on each count to run consecutively, $50 fine. 03/30/1976: Paroled.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 months on each count"
+      ],
+      "answer_start": [
+        126
+      ]
+    }
+  },
+  {
+    "context": "05/01/1977\n(Age 18)\nUnlawful Possession of Marijuana Brockton District Court; Brockton, MA 08/15/1977: Guilty plea, filed with consent of Defendant 4A1.2(e)(3) 0",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "None"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "06/01/1980\n(Age 21)\nLarceny of Property $250 or Less Brockton Municipal Court; Brockton, MA 10/23/1980: Guilty plea, 2-5 yrs. Imprisonment 06/10/1981: Paroled.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2-5 yrs"
+      ],
+      "answer_start": [
+        129
+      ]
+    }
+  },
+  {
+    "context": "09/15/1997\n(Age 38)\nPossession of Marijuana Driving Without a License Boston Municipal Court; Boston, MA 02/12/1998: Guilty, $100 fine, $50 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "02/16/2014\n(Age 55)\nUttering a Counterfeit Instrument and Attempt to Utter a Counterfeit Instrument. US District Court, District of Massachusetts; Boston, MA 06/23/2014: Guilty plea, time served, 3 years supervised release, $251 restitution, $100 Special Assessment 09/17/2015: Supervised release revoked. 3 months\u2019 custody, credit for time served.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "12/20/2016\n(Age 57)\nShoplifting under $100 Brockton District Court; Brockton, MA 01/05/2017: Guilty plea, 1 year unsupervised probation, $35 to victim witness fund.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "08/14/1988\n(Age 19)\nGrand Theft Auto; Los Angeles County Court; Los Angeles, CA 09/15/1988: Sentenced to 18 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "10/12/1994\n(Age 26)\nAssault with a deadly weapon; King County Court; Seattle, WA 11/25/1994: Sentenced to 3 years in state prison.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "3 years"
+      ],
+      "answer_start": [
+        93
+      ]
+    }
+  },
+  {
+    "context": "07/09/2000\n(Age 45)\nDrug Possession; Harris County Court; Houston, TX 08/14/2000: Sentenced to 2 years in state prison.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2 years"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "01/22/2005\n(Age 30)\nBurglary; Cook County Court; Chicago, IL 03/01/2005: Sentenced to 4 years in state prison.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "4 years"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "11/23/2008\n(Age 29)\nRobbery (armed); Miami-Dade County Court; Miami, FL 12/10/2008: Sentenced to 6 years in state prison.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 years"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "09/14/2015\n(Age 35)\nFraud; Orange County Court; Orlando, FL 10/10/2015: Sentenced to 18 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "18 months"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "05/16/2003\n(Age 22)\nBattery; Fairfax County Court; Fairfax, VA 06/18/2003: Sentenced to 6 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 months"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "02/10/1999\n(Age 27)\nArson; Maricopa County Court; Phoenix, AZ 03/25/1999: Sentenced to 5 years in state prison.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "5 years"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "06/01/2009\n(Age 40)\nDUI conviction; Clark County Court; Las Vegas, NV 07/10/2009: Sentenced to 9 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "9 months"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "03/07/1992\n(Age 19)\nVandalism; Shelby County Court; Memphis, TN 04/20/1992: Sentenced to 12 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "12 months"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "11/19/2013\n(Age 28)\nGrand Larceny; Bronx County Court; Bronx, NY 12/22/2013: Sentenced to 3 years in state prison.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "3 years"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "08/05/2010\n(Age 34)\nTrespassing; Los Angeles County Court; Los Angeles, CA 09/15/2010: Sentenced to 6 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 months"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "04/11/2007\n(Age 31)\nDisorderly Conduct; King County Court; Seattle, WA 05/05/2007: Sentenced to 3 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "3 months"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "03/15/2012\n(Age 23)\nPetty Theft; Fairfax County Court; Fairfax, VA 04/18/2012: Guilty plea, $200 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "09/22/2015\n(Age 30)\nShoplifting under $100; King County Court; Seattle, WA 10/10/2015: Guilty plea, 1 year probation, $50 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "01/17/2018\n(Age 28)\nVandalism; Los Angeles County Court; Los Angeles, CA 02/20/2018: Guilty, 2 years probation, $300 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "05/25/2019\n(Age 31)\nTrespassing; Harris County Court; Houston, TX 06/30/2019: Guilty plea, $150 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "07/10/2014\n(Age 40)\nDriving Without a License; Cook County Court; Chicago, IL 08/15/2014: Guilty plea, $200 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "11/22/2016\n(Age 38)\nPossession of Marijuana; Bronx County Court; Bronx, NY 12/10/2016: Guilty, $100 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "04/14/2017\n(Age 27)\nPublic Intoxication; Shelby County Court; Memphis, TN 05/22/2017: Guilty plea, $75 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "08/18/2020\n(Age 50)\nDisorderly Conduct; Orange County Court; Orlando, FL 09/15/2020: Guilty, $300 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "02/03/2019\n(Age 35)\nLoitering; Clark County Court; Las Vegas, NV 03/20/2019: Guilty plea, $150 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "12/11/2021\n(Age 45)\nPublic Urination; Maricopa County Court; Phoenix, AZ 01/20/2022: Guilty plea, $50 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "06/01/1980\n(Age 21)\nLarceny of Property $250 or Less Brockton Municipal Court; Brockton, MA 10/23/1980: Guilty plea, 1-2 yrs. Imprisonment 06/10/1981: Paroled.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1-2 yrs"
+      ],
+      "answer_start": [
+        129
+      ]
+    }
+  },
+  {
+    "context": "05/01/1977\n(Age 18)\nUnlawful Possession of Marijuana Brockton District Court; Brockton, MA 08/15/1977: Guilty plea, filed with consent of Defendant 4A1.2(e)(3) 0",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "None"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "06/01/1980\n(Age 21)\nLarceny of Property $250 or Less Brockton Municipal Court; Brockton, MA 10/23/1980: Guilty plea, 1-2 yrs. Imprisonment 06/10/1981: Paroled.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "1-2 yrs"
+      ],
+      "answer_start": [
+        129
+      ]
+    }
+  },
+  {
+    "context": "05/12/1987\n(Age 28)\nPossession of Marijuana Driving Without a License Boston Municipal Court; Boston, MA 02/12/1998: Guilty, $80 fine",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "02/16/2012\n(Age 65)\nUttering a Counterfeit Instrument and Attempt to Utter a Counterfeit Instrument. US District Court, District of Massachusetts; Boston, MA 06/23/2014: Guilty plea, time served, 3 years supervised release, $251 restitution, $100 Special Assessment 09/17/2015: Supervised release revoked. 3 months\u2019 custody, credit for time served.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "10/03/2011\n(Age 36)\nTrespassing; Los Angeles County Court; Los Angeles, CA 09/15/2010: Sentenced to 2 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "2 months"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "04/11/2008\n(Age 31)\nDisorderly Conduct; King County Court; Seattle, WA 09/09/2018: Sentenced to 6 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "6 months"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "03/10/2000\n(Age 24)\nPetty Theft; Fairfax County Court; Fairfax, VA 04/18/2012: Guilty plea, $150 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "01/10/1989\n(Age 29)\nArson; Maricopa County Court; Phoenix, AZ 04/25/1999: Sentenced to 8 years in state prison.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "8 years"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "22/02/2002\n(Age 40)\nDUI conviction; Clark County Court; Las Vegas, NV 07/11/2002: Sentenced to 14 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "14 months"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "03/07/1981\n(Age 19)\nVandalism; Shelby County Court; Memphis, TN 04/20/1981: Sentenced to 10 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "10 months"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "03/11/2000\n(Age 24)\nPetty Theft; Fairfax County Court; Fairfax, VA 04/18/2011: Guilty plea, $800 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "01/07/1989\n(Age 29)\nArson; Maricopa County Court; Phoenix, AZ 04/28/1999: Sentenced to 3 years in state prison.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "3 years"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "22/02/2001\n(Age 40)\nDUI conviction; Clark County Court; Las Vegas, NV 07/12/2001: Sentenced to 11 months in county jail.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "11 months"
+      ],
+      "answer_start": [
+        95
+      ]
+    }
+  },
+  {
+    "context": "06/01/1980\n(Age 21)\nLarceny of Property $250 or Less Brockton Municipal Court; Brockton, MA 10/23/1980: Guilty plea, 4-6 yrs. Imprisonment 06/10/1981: Paroled.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "4-6 yrs"
+      ],
+      "answer_start": [
+        129
+      ]
+    }
+  },
+  {
+    "context": "09/15/1996\n(Age 35)\nPossession of Marijuana Driving Without a License Boston Municipal Court; Boston, MA 02/12/1998: Guilty, $600 fine, $40 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "02/16/2012\n(Age 49)\nUttering a Counterfeit Instrument and Attempt to Utter a Counterfeit Instrument. US District Court, District of Massachusetts; Boston, MA 06/23/2014: Guilty plea, time served, 6 years supervised release, $251 restitution, $105 Special Assessment 09/17/2015: Supervised release revoked. 3 months\u2019 custody, credit for time served.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },{
+    "context": "11/21/1973\n(Age 13)\nUnruly Behavior; Rustle County Juvenile Court, Case No. 2015JD247; Columbus, AL. 01/18/1974: 3 - 10 months custody, probation, and $25 fine 4A1.2(e) 0",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "3 - 10 months"
+      ],
+      "answer_start": [
+        121
+      ]
+    }
+  },
+  {
+    "context": "09/24/1975\n(Age 16)\nBreaking and Entering (2 counts); Rustle County Juvenile Court, Case No. 2055JD147; Columbus, AL. 11/04/1975: 9 months custody on each count to run consecutively, $50 fine. 03/30/1976: Paroled.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "9 months on each count"
+      ],
+      "answer_start": [
+        126
+      ]
+    }
+  },
+  {
+    "context": "05/01/1966\n(Age 35)\nUnlawful Possession of Marijuana Brockton District Court; Brockton, MA 08/15/1967: Guilty plea, filed with consent of Defendant 4A1.2(e)(3) 0",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "None"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "06/01/1980\n(Age 21)\nLarceny of Property $150 or Less Brockton Municipal Court; Brockton, MA 10/23/1980: Guilty plea, 8-9 yrs. Imprisonment 06/10/1981: Paroled.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "8-9 yrs"
+      ],
+      "answer_start": [
+        129
+      ]
+    }
+  },
+  {
+    "context": "09/15/1997\n(Age 38)\nPossession of Marijuana Driving Without a License Boston Municipal Court; Boston, MA 02/12/1998: Guilty, $100 fine, $50 fine.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  },
+  {
+    "context": "02/16/2014\n(Age 56)\nUttering a Counterfeit Instrument and Attempt to Utter a Counterfeit Instrument. US District Court, District of Massachusetts; Boston, MA 06/23/2014: Guilty plea, time served, 3 years supervised release, $251 restitution, $100 Special Assessment 09/17/2015: Supervised release revoked. 3 months\u2019 custody, credit for time served.",
+    "question": "How much time in custody was sentenced?",
+    "answers": {
+      "text": [
+        "0"
+      ],
+      "answer_start": [
+        0
+      ]
+    }
+  }
+]

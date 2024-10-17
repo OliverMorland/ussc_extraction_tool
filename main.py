@@ -42,6 +42,8 @@ charges = get_charges_from_sample_pdf(pdf_path)
 #     print(f"Charge {i + 1}: {charges[i]}")
 
 qa_util = LLMQAUtil()
+
+
 for charge in charges:
     print("Querying the charge...")
     record = ChargeRecord()

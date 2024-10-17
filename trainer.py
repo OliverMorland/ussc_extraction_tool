@@ -6,7 +6,7 @@ model = DistilBertForQuestionAnswering.from_pretrained("distilbert-base-cased-di
 tokenizer = DistilBertTokenizerFast.from_pretrained("distilbert-base-cased-distilled-squad")
 
 # Load your custom dataset
-dataset = load_dataset('json', data_files={'train': 'dataset_500.json'})
+dataset = load_dataset('json', data_files={'train': 'custody_dataset_20.json'})
 
 
 # Tokenize the inputs

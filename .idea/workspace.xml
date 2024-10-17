@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Using regex to find first date">
-      <change afterPath="$PROJECT_DIR$/SampleCriminalHistory.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modifiedkumarscode.py" afterDir="false" />
+    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Added custody datasets">
+      <change afterPath="$PROJECT_DIR$/custody_dataset_100.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custody_dataset_1000.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custody_dataset_20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/time_frames_100_samples.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custody_dataset_10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custody_dataset_500.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_model_tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/trained_model_tester.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,22 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.data_collator.executor": "Run",
-    "Python.data_set_creator.executor": "Run",
-    "Python.llm_test.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.modifiedkumarscode.executor": "Run",
-    "Python.psr_csv_util.executor": "Run",
-    "Python.trained_model_tester.executor": "Run",
-    "Python.trainer.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/omorland/PythonProjects/ussc_extraction_tool",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.data_collator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_set_creator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.llm_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modifiedkumarscode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.psr_csv_util.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trained_model_tester.executor&quot;: &quot;Run&quot;,
+    &quot;Python.trainer.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/omorland/PythonProjects/ussc_extraction_tool&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\omorland\PythonProjects\ussc_extraction_tool" />
@@ -193,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729098034248</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added custody datasets">
+      <option name="closed" value="true" />
+      <created>1729112392799</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729112392799</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +233,8 @@
     <MESSAGE value="Trained model on 500 samples" />
     <MESSAGE value="Fixed J or A decision" />
     <MESSAGE value="Using regex to find first date" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using regex to find first date" />
+    <MESSAGE value="Added custody datasets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added custody datasets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
