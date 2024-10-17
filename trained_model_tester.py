@@ -2,7 +2,7 @@ from transformers import DistilBertForQuestionAnswering, DistilBertTokenizerFast
 import torch
 
 # Load the fine-tuned model and tokenizer from the saved directory
-model_path = './new_custody_and_state_trained_distilbert'
+model_path = './states_custody_trained_distilbert'
 model = DistilBertForQuestionAnswering.from_pretrained(model_path)
 tokenizer = DistilBertTokenizerFast.from_pretrained(model_path)
 
