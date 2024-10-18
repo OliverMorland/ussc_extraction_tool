@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Created the god of all datasets">
+    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Trained model on a sample of the god dataset">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/llm_qa_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/llm_qa_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -265,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729279418227</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Trained model on a sample of the god dataset">
+      <option name="closed" value="true" />
+      <created>1729283198575</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1729283198575</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +309,8 @@
     <MESSAGE value="Added new datasets" />
     <MESSAGE value="New distilbert model using combined dataset" />
     <MESSAGE value="Created the god of all datasets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created the god of all datasets" />
+    <MESSAGE value="Trained model on a sample of the god dataset" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trained model on a sample of the god dataset" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

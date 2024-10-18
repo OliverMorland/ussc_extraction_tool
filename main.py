@@ -37,6 +37,10 @@ def find_guidelines(text):
     return matches
 
 
+def contains_cls_token(input_text):
+    return "[CLS]" in input_text
+
+
 # Extract charges from Post Sentencing Report
 pdf_path = 'USSC_PCR_Sample.pdf'
 charges = get_charges_from_sample_pdf(pdf_path)
@@ -44,7 +48,6 @@ charges = get_charges_from_sample_pdf(pdf_path)
 #     print(f"Charge {i + 1}: {charges[i]}")
 
 qa_util = LLMQAUtil()
-
 
 for charge in charges:
     print("Querying the charge...")
@@ -68,9 +71,13 @@ for charge in charges:
 
     # Custody length
     record.custody_length_imposed = qa_util.query_the_charge("How much time in custody was sentenced?", charge)
+    if contains_cls_token(record.custody_length_imposed):
+        record.custody_length_imposed = "0"
 
     # Probation length
     record.probation_length = qa_util.query_the_charge("How much time in probation?", charge)
+    if contains_cls_token(record.probation_length):
+        record.probation_length = "0"
 
     # State of trial
     record.state = qa_util.query_the_charge("What American State is it?", charge)
