@@ -2,7 +2,7 @@ from transformers import DistilBertForQuestionAnswering, DistilBertTokenizerFast
 import torch
 
 # Load the fine-tuned model and tokenizer from the saved directory
-model_path = './custody_state_trained_distilbert'
+model_path = './combined_probation_custody_state_trained_distilbert'
 model = DistilBertForQuestionAnswering.from_pretrained(model_path)
 tokenizer = DistilBertTokenizerFast.from_pretrained(model_path)
 
@@ -39,6 +39,7 @@ def answer_question(context, question):
 def get_answers_for_question(question, samples):
     for sample in samples:
         answer = answer_question(sample, question)
+        print("--------")
         print(f"Context: {sample}")
         print("--------")
         print(f"Question: {question}")
@@ -98,7 +99,7 @@ served, no TSR to follow
 ]
 
 # Test the model with a new context and question
-custody_question = "How much time in custody was sentenced?"
+custody_question = "How much time in custody was initially sentenced?"
 state_question = "What American State is it?"
 probation_question = "How much time in probation was sentenced?"
 
@@ -106,7 +107,7 @@ probation_question = "How much time in probation was sentenced?"
 # answer = answer_question(context, question)
 
 
-get_answers_for_question(state_question, test_samples)
+get_answers_for_question(custody_question, test_samples)
 
 # Print the answer
 # print(f"Question: {question}")

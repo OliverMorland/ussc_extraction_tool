@@ -5,11 +5,13 @@ import re
 
 
 def extract_age(age_string):
-    match = re.search(r'\bAge (\d+)\b', age_string)
+    # match = re.search(r'\bAge (\d+)\b', age_string)
+    match = re.search(r'\b(\d+)\b', age_string)
     if match:
         return int(match.group(1))
     else:
-        raise ValueError("No age found in the string")
+        # raise ValueError("No age found in the string")
+        return 0
 
 
 def find_first_date(text):
@@ -49,9 +51,10 @@ for charge in charges:
     record = ChargeRecord()
 
     # Age
-    age_string = qa_util.query_the_charge("How old is the person?", charge)
+    age_string = qa_util.query_the_charge("What age is the person?", charge)
     age_number = extract_age(age_string)
     record.age = str(age_number)
+    # record.age = age_string
 
     # Arrest date
     # record.arrest_date = qa_util.query_the_charge("What is the date?", charge)
@@ -67,7 +70,7 @@ for charge in charges:
     record.custody_length_imposed = qa_util.query_the_charge("How much time in custody was sentenced?", charge)
 
     # Probation length
-    record.probation_length = qa_util.query_the_charge("How much time in probation was sentenced?", charge)
+    record.probation_length = qa_util.query_the_charge("How much time in probation?", charge)
 
     # State of trial
     record.state = qa_util.query_the_charge("What American State is it?", charge)
