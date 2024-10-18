@@ -2,7 +2,7 @@ from transformers import DistilBertForQuestionAnswering, DistilBertTokenizerFast
 import torch
 
 # Load the fine-tuned model and tokenizer from the saved directory
-model_path = './states_custody_trained_distilbert'
+model_path = './state_trained_distilbert'
 model = DistilBertForQuestionAnswering.from_pretrained(model_path)
 tokenizer = DistilBertTokenizerFast.from_pretrained(model_path)
 
@@ -105,7 +105,7 @@ probation_question = "How much time in probation was sentenced?"
 # answer = answer_question(context, question)
 
 
-get_answers_for_question(custody_question, test_samples)
+get_answers_for_question(state_question, test_samples)
 
 # Print the answer
 # print(f"Question: {question}")

@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Created a model trained on state and custody datasets">
-      <change afterPath="$PROJECT_DIR$/custody_dataset_1100.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custody_dataset_1200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/question_answer_1000_samples_custody.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/question_answer_1000_samples_custody_varied.json" afterDir="false" />
+    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Created new improved datasets but they still need improvement">
+      <change afterPath="$PROJECT_DIR$/custody_dataset_improved_1000.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custody_dataset_1000_probation_fine.json" beforeDir="false" afterPath="$PROJECT_DIR$/custody_dataset_1000_probation_fine.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trained_model_tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/trained_model_tester.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729182065363</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Created new improved datasets but they still need improvement">
+      <option name="closed" value="true" />
+      <created>1729201514168</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1729201514169</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,7 +262,8 @@
     <MESSAGE value="Added new custody datasets" />
     <MESSAGE value="Added dataset with probations" />
     <MESSAGE value="Created a model trained on state and custody datasets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a model trained on state and custody datasets" />
+    <MESSAGE value="Created new improved datasets but they still need improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created new improved datasets but they still need improvement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
