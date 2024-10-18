@@ -4,7 +4,7 @@ import torch
 
 class LLMQAUtil:
     def __init__(self):
-        model_path = './new_custody_and_state_trained_distilbert'
+        model_path = './state_trained_distilbert'
         # model_path = 'distilbert-base-cased-distilled-squad'
         self.model = DistilBertForQuestionAnswering.from_pretrained(model_path)
         self.tokenizer = DistilBertTokenizer.from_pretrained(model_path)

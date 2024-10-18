@@ -2,7 +2,7 @@ from transformers import DistilBertForQuestionAnswering, DistilBertTokenizerFast
 import torch
 
 # Load the fine-tuned model and tokenizer from the saved directory
-model_path = './state_trained_distilbert'
+model_path = './custody_state_trained_distilbert'
 model = DistilBertForQuestionAnswering.from_pretrained(model_path)
 tokenizer = DistilBertTokenizerFast.from_pretrained(model_path)
 
@@ -40,6 +40,7 @@ def get_answers_for_question(question, samples):
     for sample in samples:
         answer = answer_question(sample, question)
         print(f"Context: {sample}")
+        print("--------")
         print(f"Question: {question}")
         print(f"Answer: {answer}")
 

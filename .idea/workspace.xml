@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Created new improved datasets but they still need improvement">
-      <change afterPath="$PROJECT_DIR$/custody_dataset_improved_1000.json" afterDir="false" />
+    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Added custody and probation datasets">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custody_dataset_difficult_100.json" beforeDir="false" afterPath="$PROJECT_DIR$/custody_dataset_difficult_100.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/probation_dataset_500.json" beforeDir="false" afterPath="$PROJECT_DIR$/probation_dataset_500.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_model_tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/trained_model_tester.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/llm_qa_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/llm_qa_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729201514169</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added custody and probation datasets">
+      <option name="closed" value="true" />
+      <created>1729254938803</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1729254938803</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,7 +275,8 @@
     <MESSAGE value="Added dataset with probations" />
     <MESSAGE value="Created a model trained on state and custody datasets" />
     <MESSAGE value="Created new improved datasets but they still need improvement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created new improved datasets but they still need improvement" />
+    <MESSAGE value="Added custody and probation datasets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added custody and probation datasets" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
