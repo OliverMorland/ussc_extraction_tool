@@ -82,6 +82,6 @@ trainer = Trainer(
 trainer.train()
 
 # Save the fine-tuned model
-model_path = './psr_specialist_distilbert_2'
+model_path = './new_psr_specialist_distilbert'
 trainer.save_model(model_path)
 tokenizer.save_pretrained(model_path)
