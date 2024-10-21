@@ -5,21 +5,32 @@ from utils.psr_csv_util import add_row, ChargeRecord
 import re
 
 
+def multiline_input():
+    print("Enter your answer (type 'END' on a new line to finish):")
+    lines = []
+    while True:
+        line = input()
+        if line == 'END':
+            break
+        lines.append(line)
+    return '\n'.join(lines)
+
+
 def format_to_json(context, question, answer, answer_start):
-#     formatted_string = f'''
-# {{
-#     "context": "{context}",
-#     "question": "{question}",
-#     "answers": {{
-#       "text": [
-#         "{answer}"
-#       ],
-#       "answer_start": [
-#         {answer_start}
-#       ]
-#     }}
-# }}
-#     '''
+    #     formatted_string = f'''
+    # {{
+    #     "context": "{context}",
+    #     "question": "{question}",
+    #     "answers": {{
+    #       "text": [
+    #         "{answer}"
+    #       ],
+    #       "answer_start": [
+    #         {answer_start}
+    #       ]
+    #     }}
+    # }}
+    #     '''
     formatted_string = (f'{{"context": "{context.replace('\n', '\\n').replace('"', '\\"')}","question": "{question}",'
                         f'"answers": {{"text": ["{answer.replace('\n', '\\n').replace('"', '\\"')}"],'
                         f'"answer_start": [{answer_start}]}}}}')
@@ -48,7 +59,7 @@ for charge in charges:
     random_index = random.randint(0, len(questions_list) - 1)
     random_question = questions_list[random_index]
     print(f"Context:\n{charge}\n\nQuestion:\n{random_question}")
-    answer = input("Answer: ")
+    answer = multiline_input()
     answer_start_index = context.find(answer)
     sample = format_to_json(context, random_question, answer, answer_start_index)
     samples.append(sample)
