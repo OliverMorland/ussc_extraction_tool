@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Created a new improved dataset">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset_creator.py" afterDir="false" />
+    <list default="true" id="6c78f4ff-cdaf-4b8e-8495-661daab637d0" name="Changes" comment="Improved dataset creator with multi line input">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MASSIVE_dataset.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/MASSIVE_dataset.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleCriminalHistory.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custody_dataset_difficult_100.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/custody_dataset_difficult_100.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset_creator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset_sample.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/dataset_sample.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset_sample_2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modifiedkumarscode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/question_answer_1000_samples_custody_varied.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/llm_qa_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/llm_qa_util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +308,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729524128389</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Created a dataset creator">
+      <option name="closed" value="true" />
+      <created>1729540954805</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1729540954805</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Improved dataset creator with multi line input">
+      <option name="closed" value="true" />
+      <created>1729541321908</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1729541321908</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,8 +339,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <MESSAGE value="Created a program that breaks down the pdf into chunks" />
     <MESSAGE value="First test using LLM" />
     <MESSAGE value="Cleaned up scripts" />
     <MESSAGE value="Generating csv" />
@@ -340,7 +362,9 @@
     <MESSAGE value="reset llm model" />
     <MESSAGE value="changed model back" />
     <MESSAGE value="Created a new improved dataset" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a new improved dataset" />
+    <MESSAGE value="Created a dataset creator" />
+    <MESSAGE value="Improved dataset creator with multi line input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved dataset creator with multi line input" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

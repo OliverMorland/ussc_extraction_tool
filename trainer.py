@@ -8,7 +8,7 @@ model = DistilBertForQuestionAnswering.from_pretrained(model_to_train)
 tokenizer = DistilBertTokenizerFast.from_pretrained(model_to_train)
 
 # Load your custom dataset
-dataset = load_dataset('json', data_files={'train': 'dataset_sample_2.json'})
+dataset = load_dataset('json', data_files={'train': 'datasets/dataset_sample.json'})
 
 
 # Tokenize the inputs
@@ -63,7 +63,7 @@ tokenized_dataset = dataset.map(preprocess_function, batched=True, remove_column
 
 # Define the training arguments
 training_args = TrainingArguments(
-    output_dir="./results",
+    output_dir="results",
     eval_strategy="no",
     learning_rate=2e-5,
     per_device_train_batch_size=16,
@@ -82,6 +82,6 @@ trainer = Trainer(
 trainer.train()
 
 # Save the fine-tuned model
-model_path = './new_psr_specialist_distilbert'
+model_path = './fine_tuned_distilberts/new_psr_specialist_distilbert'
 trainer.save_model(model_path)
 tokenizer.save_pretrained(model_path)

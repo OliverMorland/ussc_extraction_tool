@@ -42,7 +42,7 @@ def write_string_to_file(string_data, filename='generated_dataset.json'):
         file.write(string_data)
 
 
-pdf_path = 'USSC_PCR_Sample.pdf'
+pdf_path = 'post_sentencing_reports/USSC_PCR_Sample.pdf'
 charges = get_charges_from_sample_pdf(pdf_path)
 questions_list = [
     "What age is the person?",
